@@ -1,0 +1,6 @@
+# Public source only. Never add client files, screenshots, exports or credentials.
+/*
+!/.gitignore
+!/index.html
+!/Decouverte-360.html
+!/README.md
