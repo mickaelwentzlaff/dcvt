@@ -10,6 +10,10 @@ Checklist d’entretien et sélection indicative d’offres télécoms. Cet aide
 - Remise à zéro via « Recommencer », au rechargement, en quittant la page et après 20 minutes sans interaction lorsque la page s’exécute, ou à sa reprise.
 - Sélection de noms d’offres et de quantités, sans chiffrage ni règles de remise. Les conditions et la souscription relèvent des outils autorisés de l’opérateur. Ce n’est ni un devis, ni un contrat, ni une preuve de consentement.
 - Liens externes fixes, sans réponse de l’entretien dans leur adresse et sans envoi de référent.
+- Profil simplifié : équipement déjà détenu, nombre de lignes du foyer et nombre de lignes Free. Les rebonds et la sélection finale tiennent compte de ces réponses.
+- Repères courts, détails secondaires et affichage en deux colonnes sur tablette à partir de 700 pixels de largeur. Le compteur indique les repères restant à traiter, pas un score de vente.
+- Rebond montre connectée avec un forfait Free détenu ou envisagé, même si le téléphone est conservé. Deux repères ouverts sur la forme, le sport, le sommeil et le quotidien précèdent la proposition ; la compatibilité n’est abordée que si la piste est retenue. Les cases indiquent les sujets abordés, sans saisie de mesure ou de détail médical.
+- Relances facultatives après un refus. Le bilan des sujets distingue ce qui a été abordé, écarté ou déjà détenu ; il ne certifie ni un besoin ni un accord du client.
 
 ## Confidentialité
 
