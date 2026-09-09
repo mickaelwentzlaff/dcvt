@@ -12,7 +12,9 @@ Checklist d’entretien et sélection indicative d’offres télécoms. Cet aide
 - Liens externes fixes, sans réponse de l’entretien dans leur adresse et sans envoi de référent.
 - Profil simplifié : équipement déjà détenu, nombre de lignes du foyer et nombre de lignes Free. Les rebonds et la sélection finale tiennent compte de ces réponses.
 - Repères courts, détails secondaires et affichage en deux colonnes sur tablette à partir de 700 pixels de largeur. Le compteur indique les repères restant à traiter, pas un score de vente.
-- Rebond montre connectée avec un forfait Free détenu ou envisagé, même si le téléphone est conservé. Deux repères ouverts sur la forme, le sport, le sommeil et le quotidien précèdent la proposition ; la compatibilité n’est abordée que si la piste est retenue. Les cases indiquent les sujets abordés, sans saisie de mesure ou de détail médical.
+- Rebond montre connectée avec un forfait Free détenu ou envisagé, même si le téléphone est conservé. Deux repères ouverts sur la forme, le sport, le sommeil et le quotidien précèdent la proposition, sans question supplémentaire de compatibilité. Les cases indiquent les sujets abordés, sans saisie de mesure ou de détail médical.
+- Un rebond forfait n’apparaît que si des lignes du foyer sont identifiées hors Free ; sa sélection est plafonnée à ce nombre. Une demande principale de forfait reste accessible, avec une limite liée au nombre de lignes déclaré (une ligne pour une première souscription). Le profil corrigé réinitialise le parcours et sa sélection.
+- Interface rouge, blanche et noire ; la mention non officielle est conservée.
 - Relances facultatives après un refus. Le bilan des sujets distingue ce qui a été abordé, écarté ou déjà détenu ; il ne certifie ni un besoin ni un accord du client.
 
 ## Confidentialité
