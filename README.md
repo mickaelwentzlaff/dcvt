@@ -1,6 +1,6 @@
 # Découverte — aide-mémoire non officiel
 
-Checklist d’entretien et sélection indicative d’offres télécoms. Cet aide-mémoire n’est pas un outil officiel de Free / iliad ou de McAfee. Les noms commerciaux identifient les produits ; aucun logo ou document interne n’est joint et aucune grille tarifaire n’est intégrée. Le catalogue n’est pas une garantie de disponibilité.
+Checklist d’entretien et sujets à proposer. Cet aide-mémoire n’est pas un outil officiel de Free / iliad ou de McAfee. Les noms commerciaux identifient les produits ; aucun logo ou document interne n’est joint et aucune grille tarifaire n’est intégrée.
 
 ## Fonctionnement
 
@@ -8,17 +8,17 @@ Checklist d’entretien et sélection indicative d’offres télécoms. Cet aide
 - Aucun champ libre, import de fichier, nom, adresse, téléphone, identifiant client ou justificatif demandé.
 - Choix et repères de l’entretien en mémoire dans l’onglet, sans envoi applicatif ni sauvegarde persistante. Pas de cookie applicatif, suivi d’audience ou compte ajouté.
 - Remise à zéro via « Recommencer », au rechargement, en quittant la page et après 20 minutes sans interaction lorsque la page s’exécute, ou à sa reprise.
-- Sélection de noms d’offres et de quantités, sans chiffrage ni règles de remise. Les conditions et la souscription relèvent des outils autorisés de l’opérateur. Ce n’est ni un devis, ni un contrat, ni une preuve de consentement.
+- La dernière page affiche uniquement, en grand, les sujets à proposer selon le parcours : forfaits, Freebox, téléphone et reprise, McAfee, assurance mobile et montre connectée. Aucun panier, tarif ou choix de produit. Le conseiller choisit les offres pertinentes. Les conditions et la souscription relèvent des outils autorisés de l’opérateur. Ce n’est ni un devis, ni un contrat, ni une preuve de consentement.
 - Liens externes fixes, sans réponse de l’entretien dans leur adresse et sans envoi de référent.
 - Profil : équipement détenu, forfaits dans le foyer et nombre chez Free. Une seule ligne et un forfait Free déjà déclaré donnent automatiquement une ligne chez Free ; aucun forfait donne automatiquement zéro. Les réponses ambiguës restent explicites, avec une option « À vérifier ».
 - Un nombre de lignes Free explicitement renseigné est conservé quand le total change et reste cohérent. Une déduction valable pour une seule ligne n’est pas réutilisée pour inventer l’équipement d’un foyer plus grand. Un équipement ajouté ne force pas à redonner une information déjà connue.
 - La demande principale vient en premier. Chaque rebond est amorcé par une question qui nomme son sujet : Internet à la maison ou les forfaits ailleurs, avec le nombre de lignes connu. Les boutons précisent ce qui va être comparé. Après une assistance, la permission d’élargir l’entretien nomme les sujets réellement disponibles dans le parcours.
-- Un bloc par thème, des repères courts et des cibles tactiles larges. Le bouton des points restants rejoint une question manquante sans répondre à la place du conseiller. Le récapitulatif et les mots-clés supplémentaires ont été supprimés ; la dernière page sert uniquement à sélectionner les offres.
+- Un bloc par thème, des repères courts et des cibles tactiles larges. Le bouton des points restants rejoint une question manquante sans répondre à la place du conseiller. Aucun récapitulatif détaillé ou mot-clé supplémentaire à la fin.
 - Rebond montre connectée avec un forfait Free détenu ou envisagé, même si le téléphone est conservé. Deux repères ouverts sur la forme, le sport, le sommeil et le quotidien précèdent la proposition, sans question supplémentaire de compatibilité. Les cases indiquent les sujets abordés, sans saisie de mesure ou de détail médical.
-- Un rebond forfait apparaît pour les lignes identifiées hors Free, ou pour préciser un équipement encore inconnu. Un foyer entièrement chez Free ne reçoit pas de rebond forfait supplémentaire. La sélection est plafonnée aux lignes concernées, avec une seule ligne par défaut quand le nombre reste à vérifier.
+- Un rebond forfait apparaît pour les lignes identifiées hors Free, ou pour préciser un équipement encore inconnu. Un foyer entièrement chez Free ne reçoit pas de rebond forfait supplémentaire. Si la comparaison est acceptée, le nombre de lignes hors Free connu est repris dans la liste finale.
 - Le changement de mobile est abordé au début de la découverte forfait. Un refus affiche une question de reprise distincte ; un second refus mène à l’assurance du mobile conservé et évite un écran téléphone redondant. Un forfait familial ne suffit pas à déduire que le client possède un forfait Free à son nom.
-- L’assurance suit le mobile conservé ou changé. Les situations d’usage et les incidents précédents sont abordés pour un nouveau mobile ou une protection à étudier. Les questions sur les SMS / mails frauduleux et les fuites de données sont liées au sujet principal et ne sont pas répétées.
-- Les parcours, refus, retours et changements de profil sont contrôlés par des tests de clics. La sélection retire les offres qui ne correspondent plus aux choix du parcours.
+- L’assurance suit le mobile conservé ou changé : couverture actuelle, situations d’usage et incidents précédents. Comme la montre, ce sujet est une checklist, sans boutons de décision commerciale « proposer » ou « pas intéressé ». Les questions sur les SMS / mails frauduleux et les fuites de données sont liées au sujet principal et ne sont pas répétées.
+- Les parcours, refus, retours et changements de profil sont contrôlés par des tests de clics. La liste finale exclut les rebonds refusés, les thèmes inutiles pour l’équipement déclaré et les doublons.
 - Interface rouge, blanche et noire ; la mention non officielle est conservée.
 
 ## Confidentialité

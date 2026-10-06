@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Découverte — Aide-mémoire non officiel</title>
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-VIIzK/nOU3n4xcjyiNT/Rnu8RhHAxOz3nXOql+prHqY='; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-LE4PYfodHeYFq7NDZ0leEyiaerE7oWff+E4X1HyqnzY='; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
   <style>
 :root{--red:#df001b;--red-dark:#ae0016;--pink:#fff1f3;--ink:#191919;--muted:#68686e;--line:#e5e5e8;--soft:#f6f6f7;--surface:#fff;--radius:18px;--shadow:0 5px 22px rgba(25,25,30,.035)}
 *{box-sizing:border-box}html{scroll-padding-top:90px}body{margin:0;background:var(--soft);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.45;-webkit-text-size-adjust:100%}
@@ -21,15 +21,15 @@ button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulati
 .outcome,.watch-block,.security,.risk-block{margin-top:20px;padding:20px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.outcome h2,.watch-block h2{font-size:17px}.outcome .chips,.discovery-actions .chips{max-width:600px}.discovery-actions{margin-top:16px}.security,.risk-block{border-left:4px solid var(--red)}.security h2,.risk-block h2{font-size:15px;color:var(--red-dark)}.security .checklist,.risk-block .checklist,.watch-block .checklist{margin-top:12px}.watch-block>.micro{margin-top:0;font-size:11px;letter-spacing:.3px}.watch-hint{margin:7px 4px 0}.followup{margin:14px 0 0 18px;padding:18px 20px;background:#fff0f3;border:1px solid #edb6bf;border-left:4px solid var(--red);border-radius:14px}.followup-label{display:block;font-size:11px;font-weight:850;letter-spacing:.7px;text-transform:uppercase;color:var(--red-dark);margin-bottom:7px}.followup h2{font-size:16px;margin:0 0 14px}.followup .chips{max-width:600px}.answer-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border:1px solid #eac4cb;background:#fff4f6;border-radius:14px;margin:18px 0;font-size:14px}.answer-summary .back{margin:0}
 .eligibility-step{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:54px;padding:15px 18px;margin:20px 0 0;border-radius:13px;background:var(--red);color:white;text-decoration:none;font-size:14px;font-weight:750}.eligibility-step::after{content:"↗";font-size:20px}.travel-links{display:flex;gap:8px;margin-top:8px}.travel-links a{display:flex;align-items:center;flex:1;min-width:0;min-height:46px;padding:9px 11px;border:1px solid #e5c8cd;border-radius:10px;background:white;font-size:12px;font-weight:650;text-decoration:none}
 .actions{position:sticky;bottom:0;z-index:4;display:flex;align-items:center;gap:12px;min-height:78px;padding:14px 16px;margin-top:28px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.97);box-shadow:0 -5px 22px rgba(30,20,25,.045);backdrop-filter:blur(10px)}.back{min-width:44px;min-height:48px;padding:10px 8px;border:0;background:transparent;color:#65656b;font-size:13px;margin-right:auto}.back:disabled{opacity:.4}.next{min-height:50px;padding:13px 22px;border:1px solid var(--red);border-radius:11px;background:var(--red);color:white;font-size:14px;font-weight:750;line-height:1.3;white-space:nowrap}.next:disabled{border-color:#e3e3e7;background:#eaeaec;color:#73737a}.remaining{min-height:46px;border:0;border-radius:9px;background:transparent;color:var(--red-dark);font-size:12px;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px;padding:8px;max-width:180px}.remaining:empty{display:none}
-.builder-group{padding:20px;margin-bottom:14px;border:1px solid var(--line);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}.builder-group h2{font-size:15px;margin-bottom:12px}.product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product{min-width:0;min-height:72px;padding:15px;border:1px solid #dcdce1;border-radius:12px;background:#fff;text-align:left;font-size:14px;line-height:1.35}.product strong{display:block;font-size:14px;font-weight:650}.product.on{background:var(--pink);border-color:var(--red);box-shadow:inset 0 0 0 .5px var(--red);color:var(--red-dark)}.qty-card{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}.qty{display:flex;align-items:center;gap:5px;margin-left:auto}.qty button{width:44px;height:44px;flex:none;border:1px solid #d9d9de;border-radius:10px;background:white;font-size:20px;color:var(--ink)}.qty button:disabled{opacity:.35}.qty b{min-width:17px;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}.specific{padding:12px 14px;background:var(--soft);border-radius:10px;font-size:13px;color:var(--muted)}.cart{padding:22px;margin-top:18px;background:#1b1b1e;color:white;border-radius:var(--radius);border-top:3px solid var(--red);box-shadow:var(--shadow)}.cart h2{font-size:18px;margin:0 0 14px}.cart-items{margin:0;padding-left:18px;font-size:14px;line-height:1.6}.cart-items li{margin:6px 0}.cart-note{color:#bdbdc5;font-size:12px;line-height:1.6;margin:16px 0 0;padding-top:14px;border-top:1px solid #3d3d42}
 .privacy-notice{width:min(1100px,calc(100% - 40px));margin:0 auto 30px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;line-height:1.65;color:var(--muted)}.privacy-notice summary{min-height:46px;padding:10px 0;cursor:pointer;font-weight:650}.privacy-notice a{color:inherit}
-@media(hover:hover){.chip:not(.on):hover,.product:not(.on):hover,.check:not(.done):hover{border-color:#b9b9c1;background:#fdfcfc}.next:not(:disabled):hover{background:var(--red-dark)}.remaining:hover{background:var(--pink)}}
-@media(max-width:699px){.shell{width:calc(100% - 24px);padding-top:10px}.top{padding:10px 12px;gap:8px}.top-right{gap:6px}.logo{font-size:20px}.reset,.eligibility{font-size:12px;padding:10px;min-height:46px}.stage{gap:3px;padding:4px;margin-bottom:22px}.stage>span{font-size:11px;gap:4px}.stage b{display:none}.screen h1{font-size:29px}.profile-grid,.household-grid{grid-template-columns:1fr;gap:14px}.profile-card{padding:18px}.household-card{grid-column:auto}.household-grid>.group+.group{padding-top:18px;border-top:1px solid var(--line)}.checklist{grid-template-columns:1fr;gap:10px}.outcome,.watch-block,.security,.risk-block{padding:16px}.followup{margin-left:8px;padding:16px}.actions{gap:5px;padding:10px;min-height:72px}.next{padding:12px 14px;font-size:13px}.remaining{max-width:108px;font-size:11px}.back{font-size:12px;padding:8px 4px}.builder-group{padding:16px}.privacy-notice{width:calc(100% - 24px)}}
-@media(max-width:430px){.eligibility{font-size:0;gap:5px}.eligibility::before{content:"Éligibilité";font-size:12px}.eligibility::after{font-size:14px}.product-grid{grid-template-columns:1fr}.screen h1{font-size:27px}.coverage-list{grid-template-columns:1fr}.privacy-strip{font-size:10px}}
+@media(hover:hover){.chip:not(.on):hover,.check:not(.done):hover{border-color:#b9b9c1;background:#fdfcfc}.next:not(:disabled):hover{background:var(--red-dark)}.remaining:hover{background:var(--pink)}}
+@media(max-width:699px){.shell{width:calc(100% - 24px);padding-top:10px}.top{padding:10px 12px;gap:8px}.top-right{gap:6px}.logo{font-size:20px}.reset,.eligibility{font-size:12px;padding:10px;min-height:46px}.stage{gap:3px;padding:4px;margin-bottom:22px}.stage>span{font-size:11px;gap:4px}.stage b{display:none}.screen h1{font-size:29px}.profile-grid,.household-grid{grid-template-columns:1fr;gap:14px}.profile-card{padding:18px}.household-card{grid-column:auto}.household-grid>.group+.group{padding-top:18px;border-top:1px solid var(--line)}.checklist{grid-template-columns:1fr;gap:10px}.outcome,.watch-block,.security,.risk-block{padding:16px}.followup{margin-left:8px;padding:16px}.actions{gap:5px;padding:10px;min-height:72px}.next{padding:12px 14px;font-size:13px}.remaining{max-width:108px;font-size:11px}.back{font-size:12px;padding:8px 4px}.privacy-notice{width:calc(100% - 24px)}}
+@media(max-width:430px){.eligibility{font-size:0;gap:5px}.eligibility::before{content:"Éligibilité";font-size:12px}.eligibility::after{font-size:14px}.screen h1{font-size:27px}.coverage-list{grid-template-columns:1fr}.privacy-strip{font-size:10px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-.profile-hint{font-size:15px;color:var(--red-dark);padding:14px 16px;background:var(--pink);border-radius:12px;margin:0}.offer-end{max-width:850px;margin:0 auto}.next{white-space:normal;text-align:center;max-width:300px}.group .chips:has([data-single="householdLines"]) .chip[data-value="?"],.group .chips:has([data-single="freeLines"]) .chip[data-value="?"]{grid-column:span 2}
+.profile-hint{font-size:15px;color:var(--red-dark);padding:14px 16px;background:var(--pink);border-radius:12px;margin:0}.next{white-space:normal;text-align:center;max-width:300px}.group .chips:has([data-single="householdLines"]) .chip[data-value="?"],.group .chips:has([data-single="freeLines"]) .chip[data-value="?"]{grid-column:span 2}
 @media(min-width:700px){.outcome:has(>[class="chips"]) {display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,40%);gap:20px;align-items:center}.outcome:has(>[class="chips"]) h2{margin:0}.followup{display:grid;grid-template-columns:minmax(0,1fr) 220px;column-gap:20px;align-items:center}.followup-label{grid-column:1}.followup h2{grid-column:1;margin:0}.followup .chips{grid-column:2;grid-row:1 / 3}.risk-block{padding:16px 20px}.risk-block>.chips{gap:8px}.risk-block>.chips .chip{min-height:46px;padding:10px 12px}.check{min-height:66px;padding:14px}.outcome,.security,.watch-block{padding:18px}}
 .outcome.topic-entry{display:block}.topic-entry .chips{max-width:none}
+.proposal-items{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0;padding:0}.proposal-items li{display:flex;align-items:center;min-height:110px;padding:24px;border:1px solid var(--line);border-left:5px solid var(--red);border-radius:var(--radius);background:white;color:var(--ink);font-size:clamp(24px,3.2vw,34px);font-weight:800;letter-spacing:-.7px;line-height:1.15}.proposal-items li:nth-child(odd){background:var(--pink)}@media(max-width:699px){.proposal-items{grid-template-columns:1fr;gap:12px}.proposal-items li{min-height:90px;padding:20px;font-size:27px}}
 </style>
 </head>
 <body>
@@ -38,17 +38,16 @@ button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulati
   <main class="shell"><div class="stage" id="stage"></div><section class="screen" id="app"></section></main>
 <details id="privacy" class="privacy-notice">
     <summary>Confidentialité et utilisation</summary>
-    <p><strong>Outil non officiel.</strong> Cet aide-mémoire n’est pas un outil officiel de Free / iliad ou de McAfee. Les noms d’offres servent uniquement à identifier des produits. Aucun logo ou document interne n’est joint et aucune grille tarifaire n’est intégrée. Les offres disponibles, leurs conditions et le chiffrage doivent être vérifiés dans les outils autorisés de l’opérateur. Cette sélection n’est ni un devis, ni un contrat, ni une preuve de conseil ou de consentement.</p>
-    <p><strong>Choix de l’entretien.</strong> Aucun champ de texte, nom, adresse, numéro de téléphone, identifiant client, document ou fichier n’est demandé. Les cases cochées, le profil du foyer et la sélection restent en mémoire dans cet onglet : le code ne les envoie pas à un serveur et ne les écrit pas dans un stockage persistant. Aucun suivi d’audience, cookie applicatif ou compte utilisateur n’est ajouté.</p>
+    <p><strong>Outil non officiel.</strong> Cet aide-mémoire n’est pas un outil officiel de Free / iliad ou de McAfee. Les noms d’offres servent uniquement à identifier des produits. Aucun logo ou document interne n’est joint et aucune grille tarifaire n’est intégrée. Les offres disponibles, leurs conditions et le chiffrage doivent être vérifiés dans les outils autorisés de l’opérateur. Cet aide-mémoire n’est ni un devis, ni un contrat, ni une preuve de conseil ou de consentement.</p>
+    <p><strong>Choix de l’entretien.</strong> Aucun champ de texte, nom, adresse, numéro de téléphone, identifiant client, document ou fichier n’est demandé. Les cases cochées, le profil du foyer restent en mémoire dans cet onglet : le code ne les envoie pas à un serveur et ne les écrit pas dans un stockage persistant. Aucun suivi d’audience, cookie applicatif ou compte utilisateur n’est ajouté.</p>
     <p><strong>Remise à zéro.</strong> Utilisez « Recommencer » entre deux personnes. Les choix sont également remis à zéro au rechargement, en quittant la page et après 20 minutes sans interaction quand le navigateur exécute la page, ou à sa reprise. Cela n’efface pas les captures d’écran, les traces du système ou celles d’extensions du navigateur.</p>
     <p><strong>Hébergement et liens.</strong> Lors d’un accès en ligne, l’hébergeur reçoit des données techniques de connexion, dont l’adresse IP. Le code de l’application ne lui transmet pas les choix de l’entretien. Les sites externes s’ouvrent uniquement après un clic et appliquent leurs propres règles ; aucun choix de l’entretien n’est ajouté aux liens.</p>
     <p><strong>Précautions.</strong> Ne partagez pas de données client, de capture d’un entretien ou d’information interne. Les choix peuvent concerner une personne identifiable dans le contexte de l’entretien ; l’absence de nom ne suffit pas à garantir l’anonymat.</p>
   </details>
 <script>
 "use strict";
-const state={page:0,visit:"",owned:[],householdLines:"",freeLines:"",freeLinesAuto:false,main:[],support:"",assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:"",insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}};
+const state={page:0,visit:"",owned:[],householdLines:"",freeLines:"",freeLinesAuto:false,main:[],support:"",assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:""};
 const app=document.getElementById("app"),counter=document.getElementById("counter"),stage=document.getElementById("stage");
-const catalog={boxes:[{id:"pop-s",name:"Freebox Pop S"},{id:"revolution",name:"Freebox Révolution Light"},{id:"pop",name:"Freebox Pop"},{id:"ultra-essential",name:"Freebox Ultra Essentiel"},{id:"ultra",name:"Freebox Ultra"},{id:"box-5g",name:"Box 5G"}],plans:[{id:"2e",name:"Forfait 2€"},{id:"serie",name:"Série Free"},{id:"5g",name:"Forfait Free 5G+"},{id:"max",name:"Forfait Free Max"}],security:[{id:"security",name:"McAfee Sécurité"},{id:"advanced",name:"McAfee Sécurité Avancé"}],insurance:[{id:"essential",name:"Assurance Mobile Essentielle"}],equipment:[{id:"watch",name:"Montre connectée — modèle à définir"}]};
 const hasOwned=id=>state.owned.includes(id);
 const mainHas=id=>state.main.includes(id);
 const knownCount=value=>value!==""&&value!=="?"&&Number.isInteger(Number(value))&&Number(value)>=0;
@@ -61,6 +60,7 @@ const core={
 };
 const securityItems=()=>[["fraud","Des SMS ou mails suspects déjà reçus ?","Tentatives d’arnaque, liens douteux"],["data","Une fuite de données vous a déjà concerné ?","Alerte reçue ou inquiétude sur vos comptes"]];
 const riskItems=[["context","Où et comment utilisez-vous votre mobile ?","Déplacements, travail, loisirs, enfants"],["history","Déjà une casse, un vol ou une oxydation ?","Ce que cela a changé au quotidien"]];
+const insuranceItems=[["coverage","Votre mobile est-il déjà assuré ?","Garanties actuelles, éventuels doublons"],...riskItems];
 const watchQuestions=[["wellbeing","Sport, activité, sommeil : vous suivez quoi ?",""],["daily","Qu’aimeriez-vous faire sans sortir le mobile ?","Appels, notifications, musique"]];
 function normalizeHousehold(){
  if(state.householdLines===""){state.freeLines="";state.freeLinesAuto=false;return}
@@ -122,15 +122,12 @@ function phonePlanRequired(page){const mobile=mobilePage();return phoneWanted(pa
 function watchEligible(){return phonePurchaseAllowed()}
 function isSkippedRebound(page){return state.visit==="help"&&state.assistanceConsent==="no"&&page.type==="theme"}
 function watchInScope(){return watchEligible()&&flow().some(p=>p.watch&&!isSkippedRebound(p))}
-function watchDone(page){return !page.watch||!watchEligible()||state.watchInterest==="no"||(state.watchInterest==="yes"&&watchQuestions.every(([id])=>state.checks["watch:"+id]))}
-function clearWatch(){state.watchInterest="";state.cart.watch="";for(const [id] of watchQuestions)delete state.checks["watch:"+id]}
+function watchDone(page){return !page.watch||!watchEligible()||watchQuestions.every(([id])=>state.checks["watch:"+id])}
+function clearWatch(){for(const [id] of watchQuestions)delete state.checks["watch:"+id]}
 function clearWatchIfUnavailable(){if(!watchInScope())clearWatch()}
-function setWatchInterest(value){if(!["yes","no"].includes(value)||!watchInScope()||state.watchInterest===value)return;state.cart.watch="";state.watchInterest=value}
 function pageChecksDone(page){return page.items.every(([id])=>state.checks[key(page,id)])}
 function securityDone(page){return !page.security||securityItems().every(([id])=>state.checks["security:"+id])}
-function insuranceRisksRequired(changing){return ["propose","verify"].includes(state.insuranceOutcome)||(changing&&!state.insuranceOutcome)}
-function insuranceDone(changing){return !!state.insuranceOutcome&&(!insuranceRisksRequired(changing)||riskItems.every(([id])=>state.checks["insurance:"+id]))}
-function phoneChoiceDone(phone=phoneCompanion()){return !phone||(phoneDecisionDone(phone)&&(phoneWanted(phone)||insuranceDone(false)))}
+function insuranceDone(){return insuranceItems.every(([id])=>state.checks["insurance:"+id])}
 function pageDone(page){if(page.type==="start")return startReady();return remainingSteps(page)===0}
 function routeLabel(page){return page.type==="support"?"Assistance":page.role==="primary"?"La demande du jour":page.role==="prerequisite"?"Avec ce mobile":page.role==="companion"?"Mobile et forfait":"Rebond · "+({mobile:"forfaits du foyer",box:"Freebox",phone:"mobile"})[page.id]}
 function group(title,content){return '<section class="group" role="group" aria-label="'+title+'"><h2>'+title+'</h2><div class="chips">'+content+'</div></section>'}
@@ -180,7 +177,7 @@ function renderPhoneChoice(page,inline=false){
  const choices=[["yes","Oui"],["no","Non"]];
  const first='<section class="outcome"><h2>Souhaitez-vous changer de mobile ?</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(value===v?"on":"")+'" aria-pressed="'+(value===v)+'" data-interest="'+k+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>';
  if(value!=="no")return first;
- return first+'<section class="followup"><span class="followup-label">Et avec une reprise ?</span><h2>Avec une reprise, vous changeriez de mobile ?</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(trade===v?"on":"")+'" aria-pressed="'+(trade===v)+'" data-tradein="'+key(page,"tradein")+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>'+(inline&&trade==="no"?renderInsurance(false):"");
+ return first+'<section class="followup"><span class="followup-label">Et avec une reprise ?</span><h2>Avec une reprise, vous changeriez de mobile ?</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(trade===v?"on":"")+'" aria-pressed="'+(trade===v)+'" data-tradein="'+key(page,"tradein")+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>'+(inline&&trade==="no"?renderInsurance():"");
 }
 function renderPhonePlan(page){
  const mobile=mobilePage();
@@ -188,14 +185,13 @@ function renderPhonePlan(page){
  if(!phonePlanRequired(page))return "";
  return '<section class="outcome"><h2>Un forfait Free à votre nom est nécessaire.</h2><div class="chips">'+[["yes","Prévoir un forfait Free"],["no","Garder mon forfait actuel"]].map(([v,label])=>'<button class="chip '+(state.phonePlan===v?"on":"")+'" aria-pressed="'+(state.phonePlan===v)+'" data-phone-plan="'+v+'">'+label+'</button>').join("")+'</div></section>'+(state.phonePlan==="yes"?'<section class="outcome"><h2>Les besoins du forfait associé</h2>'+renderChecklist({...theme("mobile","phone"),role:"phone"})+'</section>':state.phonePlan==="no"?'<p class="context-line">On conserve le mobile. Un achat ici nécessiterait un forfait Free à votre nom.</p>':"");
 }
-function renderInsurance(changing){
- const choices=changing?[["propose","Étudier une assurance"],["insured","Déjà couvert"],["decline","Sans assurance"]]:[["insured","Oui"],["propose","Non"],["verify","À vérifier"],["decline","Pas de suite"]];
- return '<section class="risk-block"><h2>'+(changing?"Comment protéger ce mobile ?":"Votre mobile est-il déjà assuré ?")+'</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(state.insuranceOutcome===v?"on":"")+'" aria-pressed="'+(state.insuranceOutcome===v)+'" data-insurance-outcome="'+v+'">'+label+'</button>').join("")+'</div>'+(insuranceRisksRequired(changing)?'<div class="checklist">'+riskItems.map(([id,q,hint])=>renderCheck("insurance:"+id,q,hint)).join("")+'</div>':"")+'</section>';
+function renderInsurance(){
+ return '<section class="risk-block"><h2>Assurance du mobile</h2><div class="checklist">'+insuranceItems.map(([id,q,hint])=>renderCheck("insurance:"+id,q,hint)).join("")+'</div></section>';
 }
 function renderSecurity(page){return !page.security?"":'<section class="security"><h2>'+({mobile:"Sécurité des usages mobiles · McAfee",box:"Sécurité des appareils du foyer · McAfee",phone:"Sécurité du mobile · McAfee"})[page.securityAnchor]+'</h2><div class="checklist">'+securityItems().map(([id,q,hint])=>renderCheck("security:"+id,q,hint)).join("")+'</div></section>'}
 function renderWatch(page){
  if(!page.watch||!watchEligible())return "";
- return '<section class="watch-block"><p class="micro">'+(hasOwned("mobile")?"Avec votre forfait Free":"Avec le forfait Free envisagé")+'</p><h2>Une montre au quotidien</h2><div class="checklist">'+watchQuestions.map(([id,q,hint])=>renderCheck("watch:"+id,q,hint)).join("")+'</div><div class="discovery-actions"><div class="chips">'+[["yes","Explorer une montre"],["no","Pas de besoin"]].map(([v,label])=>'<button class="chip '+(state.watchInterest===v?"on":"")+'" aria-pressed="'+(state.watchInterest===v)+'" data-watch-interest="'+v+'">'+label+'</button>').join("")+'</div></div></section>';
+ return '<section class="watch-block"><p class="micro">'+(hasOwned("mobile")?"Avec votre forfait Free":"Avec le forfait Free envisagé")+'</p><h2>Une montre au quotidien</h2><div class="checklist">'+watchQuestions.map(([id,q,hint])=>renderCheck("watch:"+id,q,hint)).join("")+'</div></section>';
 }
 function renderSupport(page){
  app.innerHTML='<div class="meta">Assistance</div><h1>'+page.title+'</h1>'+renderChecklist(page)+(pageChecksDone(page)?'<section class="outcome"><h2>'+assistanceOpening()+'</h2><div class="chips">'+[["yes","Oui"],["no","Non"]].map(([v,label])=>'<button class="chip '+(state.assistanceConsent===v?"on":"")+'" aria-pressed="'+(state.assistanceConsent===v)+'" data-assistance-consent="'+v+'">'+label+'</button>').join("")+'</div></section>':"")+actions(true,pageDone(page));
@@ -209,7 +205,7 @@ function renderPage(page){
   body=renderPhoneChoice(page)+renderPhonePlan(page);
   if(phoneDecisionDone(page)&&(!phonePlanRequired(page)||state.phonePlan)){
    if(phoneChanging(page)){const trade=state.tradeinInterests[key(page,"tradein")]==="yes";body+=renderChecklist({...page,items:page.items.filter(([id])=>!(id==="tradein"&&trade))})}
-   body+=renderInsurance(phoneChanging(page));
+   body+=renderInsurance();
   }
  }else{
   body=renderInterest(page);
@@ -235,59 +231,57 @@ function pendingKeys(page){
    page.items.filter(([id])=>!(id==="tradein"&&state.tradeinInterests[key(page,"tradein")]==="yes")).forEach(([id])=>{if(!state.checks[key(page,id)])pending.push(key(page,id))});
    if(state.phonePlan==="yes")addChecks(core.mobile.items,"mobile:phone:");
   }
-  if(!state.insuranceOutcome)pending.push("insurance");
-  if(insuranceRisksRequired(phoneChanging(page)))addChecks(riskItems,"insurance:");
+  addChecks(insuranceItems,"insurance:");
  }else{
   if(interestPage(page)&&!state.interests[key(page,"interest")])pending.push("interest");
   if(reboundOpen(page)){
    page.items.forEach(([id])=>{if(!state.checks[key(page,id)])pending.push(key(page,id))});
    const phone=phoneInline(page);
    if(phone&&!phoneDecisionDone(phone))pending.push("phone-choice");
-   else if(phone&&!phoneWanted(phone)){if(!state.insuranceOutcome)pending.push("insurance");if(insuranceRisksRequired(false))addChecks(riskItems,"insurance:")}
+   else if(phone&&!phoneWanted(phone))addChecks(insuranceItems,"insurance:");
   }
  }
  if(page.security)addChecks(securityItems(),"security:");
- if(page.watch&&watchEligible()){if(!state.watchInterest)pending.push("watch-choice");else if(state.watchInterest==="yes")addChecks(watchQuestions,"watch:")}
+ if(page.watch&&watchEligible())addChecks(watchQuestions,"watch:");
  return pending;
 }
 function remainingSteps(page){return pendingKeys(page).length}
 function remainingText(page){const n=remainingSteps(page);return n?n+" point"+(n>1?"s":"")+" restant"+(n>1?"s":""):""}
 function canSkipPage(page){return isSkippedRebound(page)||(page.id==="phone"&&page.role==="companion"&&phoneInline(mobilePage()||{})&&!phoneWanted(page)&&pageDone(page))}
 function targetAfter(){const pages=flow();let target=Math.min(state.page+1,pages.length-1);while(target<pages.length-1&&canSkipPage(pages[target]))target++;return target}
-function nextLabel(){const page=flow()[targetAfter()];return page?.type==="summary"?(renderBuilder()?"Choisir les offres":"Terminer"):page?.title||"Continuer"}
+function nextLabel(){const page=flow()[targetAfter()];return page?.type==="summary"?(proposalItems().length?"À proposer":"Terminer"):page?.title||"Continuer"}
 function actions(back,enabled,label){return '<footer class="actions"><button class="back" id="back" '+(back?"":"disabled")+'>← Retour</button><button class="remaining" id="remaining" aria-live="polite" title="Aller au prochain point">'+remainingText(flow()[state.page])+'</button><button class="next" id="next" '+(enabled?"":"disabled")+'>'+(label||nextLabel())+' →</button></footer>'}
 function proposalTheme(id){
  if(id==="mobile"&&state.phonePlan==="yes"&&!isSkippedRebound({type:"theme"}))return true;
  const p=flow().find(page=>page.id===id&&page.type==="theme"&&!isSkippedRebound(page));return !!p&&(id==="phone"?phoneChanging(p):reboundOpen(p));
 }
-function planSelectionLimit(){const p=flow().find(page=>page.id==="mobile"&&page.type==="theme"&&!isSkippedRebound(page)&&reboundOpen(page));return p?(p.role==="rebound"?(linesOutsideFree()??1):p.role==="prerequisite"?1:Math.max(1,knownCount(state.householdLines)?Number(state.householdLines):1)):state.phonePlan==="yes"&&proposalTheme("phone")?1:0}
-function findProduct(group,id){return catalog[group].find(item=>item.id===id)}
-function planQuantities(){let remaining=planSelectionLimit();const result={};for(const item of catalog.plans){const qty=Math.min(remaining,Math.max(0,Math.floor(Number(state.cart.plans[item.id])||0)));if(qty)result[item.id]=qty;remaining-=qty}return result}
-function changePlan(id,delta){if(!findProduct("plans",id)||![1,-1].includes(delta))return;const quantities=planQuantities(),used=Object.values(quantities).reduce((sum,n)=>sum+n,0);if(delta<0||used<planSelectionLimit())quantities[id]=Math.max(0,(quantities[id]||0)+delta);state.cart.plans=quantities}
 function securityInScope(){return flow().some(p=>p.security&&!isSkippedRebound(p)&&securityDone(p))}
-function insuranceInScope(){return ["propose","verify"].includes(state.insuranceOutcome)&&flow().some(p=>p.id==="phone"&&!isSkippedRebound(p))}
-function cartData(){
- const rows=[],box=findProduct("boxes",state.cart.box);
- if(box&&proposalTheme("box"))rows.push(box.name);
- const quantities=planQuantities();for(const item of catalog.plans){const n=quantities[item.id]||0;if(n)rows.push((n>1?n+" × ":"")+item.name)}
- for(const [group,value,available] of [["security",state.cart.security,securityInScope()],["insurance",state.cart.insurance,insuranceInScope()]]){const item=findProduct(group,value);if(item&&available)rows.push(item.name)}
- if(watchInScope()&&state.watchInterest==="yes"&&state.cart.watch==="watch")rows.push(findProduct("equipment","watch").name);
- return {rows};
-}
-function productButtons(group){const stateKey={boxes:"box",security:"security",insurance:"insurance",equipment:"watch"}[group];return catalog[group].map(item=>'<button class="product '+(state.cart[stateKey]===item.id?"on":"")+'" aria-pressed="'+(state.cart[stateKey]===item.id)+'" data-cart-group="'+stateKey+'" data-cart-value="'+item.id+'"><strong>'+item.name+'</strong></button>').join("")}
-function planButtons(){const quantities=planQuantities(),full=Object.values(quantities).reduce((sum,n)=>sum+n,0)>=planSelectionLimit();return catalog.plans.map(item=>{const qty=quantities[item.id]||0;return '<div class="product qty-card '+(qty?"on":"")+'"><strong>'+item.name+'</strong><div class="qty"><button data-plan="'+item.id+'" data-delta="-1" '+(qty?"":"disabled")+' aria-label="Retirer '+item.name+'">−</button><b>'+qty+'</b><button data-plan="'+item.id+'" data-delta="1" '+(full?"disabled":"")+' aria-label="Ajouter '+item.name+'">+</button></div></div>'}).join("")}
-function renderCart(){const {rows}=cartData();return rows.length?'<section class="cart"><h2>La sélection</h2><ul class="cart-items">'+rows.map(row=>'<li>'+row+'</li>').join("")+'</ul></section>':""}
-function renderBuilder(){
- const group=(title,products)=>'<section class="builder-group"><h2>'+title+'</h2><div class="product-grid">'+products+'</div></section>';
- return (proposalTheme("box")?group("Freebox",productButtons("boxes")):"")+(proposalTheme("mobile")?'<section class="builder-group"><h2>Forfaits</h2><p class="micro">'+planSelectionLimit()+' ligne'+(planSelectionLimit()>1?"s":"")+' maximum</p><div class="product-grid">'+planButtons()+'</div></section>':"")+(securityInScope()?group("McAfee",productButtons("security")):"")+(insuranceInScope()?group("Assurance mobile",productButtons("insurance")):"")+(watchInScope()&&state.watchInterest==="yes"?group("Montre",productButtons("equipment")):"")+(proposalTheme("phone")?'<section class="builder-group"><h2>Mobile et reprise</h2><p class="specific">Choisir le modèle, faire estimer la reprise et étudier l’assurance dans les outils de souscription.</p></section>':"")+renderCart();
+function insuranceInScope(){return insuranceDone()&&flow().some(p=>p.id==="phone"&&!isSkippedRebound(p))}
+function proposalItems(){
+ const items=[],seen=new Set(),pages=flow();
+ const add=(id,label)=>{if(!seen.has(id)){items.push({id,label});seen.add(id)}};
+ for(const page of pages.filter(p=>p.type==="theme"&&!isSkippedRebound(p))){
+  if(page.id==="mobile"&&proposalTheme("mobile")){
+   const n=page.role==="rebound"&&reboundOpen(page)?linesOutsideFree():null;
+   add("mobile",n>1?n+" forfaits Free":"Forfait Free");
+  }
+  if(page.id==="box"&&proposalTheme("box"))add("box","Freebox");
+  if(page.id==="phone"&&proposalTheme("phone")){
+   if(state.phonePlan==="yes")add("mobile","Forfait Free");
+   add("phone","Téléphone + reprise");
+  }
+ }
+ if(securityInScope())add("security","McAfee");
+ if(insuranceInScope())add("insurance","Assurance mobile");
+ if(watchInScope()&&watchDone(pages.find(p=>p.watch)))add("watch","Montre connectée");
+ return items;
 }
 function renderSummary(){
- const body=renderBuilder();
- app.innerHTML='<div class="meta">Fin de l’entretien</div><h1>'+(body?"Les offres":"Entretien terminé")+'</h1><div class="offer-end">'+body+'</div>'+actions(true,true,"Nouvelle découverte");
- bindBuilder();document.getElementById("next").onclick=reset;document.getElementById("back").onclick=back;document.getElementById("reset").onclick=reset;
+ const items=proposalItems();
+ app.innerHTML='<div class="meta">Fin de l’entretien</div><h1>'+(items.length?"À proposer":"Entretien terminé")+'</h1>'+(items.length?'<ul class="proposal-items">'+items.map(item=>'<li>'+item.label+'</li>').join("")+'</ul>':"")+actions(true,true,"Nouvelle découverte");
+ document.getElementById("next").onclick=reset;document.getElementById("back").onclick=back;document.getElementById("reset").onclick=reset;
 }
-function bindBuilder(){document.querySelectorAll("[data-cart-group]").forEach(b=>b.onclick=()=>{const group=b.dataset.cartGroup,value=b.dataset.cartValue;state.cart[group]=state.cart[group]===value?"":value;renderSummary()});document.querySelectorAll("[data-plan]").forEach(b=>b.onclick=()=>{changePlan(b.dataset.plan,Number(b.dataset.delta));renderSummary()})}
-function clearRoute(){Object.assign(state,{page:0,assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:"",insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}})}
+function clearRoute(){Object.assign(state,{page:0,assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:""})}
 function setProfile(field,value){
  if(state[field]===value)return;
  if(field==="householdLines"&&state.freeLinesAuto){state.freeLines="";state.freeLinesAuto=false}
@@ -308,23 +302,21 @@ function bindStart(){
  document.querySelectorAll("[data-owned]").forEach(b=>b.onclick=()=>{selectOwned(b.dataset.owned);render()});
  document.querySelectorAll("[data-main]").forEach(b=>b.onclick=()=>{const id=b.dataset.main;state.main=mainHas(id)?state.main.filter(x=>x!==id):[...state.main,id];clearRoute();render()});bindActions();
 }
+function clearInsurance(){for(const [id] of insuranceItems)delete state.checks["insurance:"+id]}
 function setInterest(k,value){
  if(state.interests[k]===value)return;
  state.interests[k]=value;
- if(k.startsWith("phone:")){delete state.tradeinInterests[k.replace(":interest",":tradein")];state.phonePlan="";state.insuranceOutcome="";state.cart.insurance="";for(const [id] of riskItems)delete state.checks["insurance:"+id]}
- if(k.startsWith("mobile:")){state.cart.plans={};state.phonePlan=""}
- if(k.startsWith("box:"))state.cart.box="";
+ if(k.startsWith("phone:")){delete state.tradeinInterests[k.replace(":interest",":tradein")];state.phonePlan="";clearInsurance()}
+ if(k.startsWith("mobile:"))state.phonePlan="";
  clearWatchIfUnavailable();
 }
-function setTradein(k,value){if(state.tradeinInterests[k]===value)return;state.tradeinInterests[k]=value;state.phonePlan="";state.insuranceOutcome="";state.cart.insurance="";for(const [id] of riskItems)delete state.checks["insurance:"+id];clearWatchIfUnavailable()}
+function setTradein(k,value){if(state.tradeinInterests[k]===value)return;state.tradeinInterests[k]=value;state.phonePlan="";clearInsurance();clearWatchIfUnavailable()}
 function bindDynamic(){
  document.querySelectorAll("[data-interest]").forEach(b=>b.onclick=()=>{setInterest(b.dataset.interest,b.dataset.value);render()});
  document.querySelectorAll("[data-tradein]").forEach(b=>b.onclick=()=>{setTradein(b.dataset.tradein,b.dataset.value);render()});
  document.querySelectorAll("[data-edit-phone]").forEach(b=>b.onclick=()=>{state.page=flow().findIndex(p=>p.id==="mobile");render();focusPage()});
- document.querySelectorAll("[data-phone-plan]").forEach(b=>b.onclick=()=>{if(state.phonePlan!==b.dataset.phonePlan){state.phonePlan=b.dataset.phonePlan;state.cart.plans={};state.insuranceOutcome="";clearWatchIfUnavailable()}render()});
- document.querySelectorAll("[data-insurance-outcome]").forEach(b=>b.onclick=()=>{state.insuranceOutcome=b.dataset.insuranceOutcome;state.cart.insurance="";render()});
- document.querySelectorAll("[data-watch-interest]").forEach(b=>b.onclick=()=>{setWatchInterest(b.dataset.watchInterest);render()});
- document.querySelectorAll("[data-assistance-consent]").forEach(b=>b.onclick=()=>{state.assistanceConsent=b.dataset.assistanceConsent;if(state.assistanceConsent==="no"){state.cart={box:"",plans:{},security:"",insurance:"",watch:""};clearWatch()}render()});
+ document.querySelectorAll("[data-phone-plan]").forEach(b=>b.onclick=()=>{if(state.phonePlan!==b.dataset.phonePlan){state.phonePlan=b.dataset.phonePlan;clearInsurance();clearWatchIfUnavailable()}render()});
+ document.querySelectorAll("[data-assistance-consent]").forEach(b=>b.onclick=()=>{state.assistanceConsent=b.dataset.assistanceConsent;if(state.assistanceConsent==="no")clearWatch();render()});
  document.querySelectorAll("[data-check]").forEach(b=>b.onclick=()=>{
   const checked=!state.checks[b.dataset.check];state.checks[b.dataset.check]=checked;b.classList.toggle("done",checked);b.setAttribute("aria-pressed",checked);
   const page=flow()[state.page];
@@ -333,8 +325,8 @@ function bindDynamic(){
  });bindActions();
 }
 function focusPending(){
- const controls=app.querySelectorAll?.("[data-check],[data-interest],[data-tradein],[data-watch-interest],[data-insurance-outcome],[data-phone-plan],[data-assistance-consent]")||[];
- const target=Array.from(controls).find(b=>{const d=b.dataset;if(d.check)return !(d.check.startsWith("watch:")&&state.watchInterest==="no")&&!state.checks[d.check];if(d.interest)return !state.interests[d.interest];if(d.tradein)return !state.tradeinInterests[d.tradein];if(d.watchInterest)return !state.watchInterest;if(d.insuranceOutcome)return !state.insuranceOutcome;if(d.phonePlan)return !state.phonePlan;if(d.assistanceConsent)return !state.assistanceConsent;return false});
+ const controls=app.querySelectorAll?.("[data-check],[data-interest],[data-tradein],[data-phone-plan],[data-assistance-consent]")||[];
+ const target=Array.from(controls).find(b=>{const d=b.dataset;if(d.check)return !state.checks[d.check];if(d.interest)return !state.interests[d.interest];if(d.tradein)return !state.tradeinInterests[d.tradein];if(d.phonePlan)return !state.phonePlan;if(d.assistanceConsent)return !state.assistanceConsent;return false});
  if(target){target.focus({preventScroll:true});target.scrollIntoView({block:"center",behavior:"auto"})}
 }
 function bindActions(){const nextButton=document.getElementById("next"),backButton=document.getElementById("back");if(nextButton)nextButton.onclick=next;if(backButton)backButton.onclick=back;document.getElementById("reset").onclick=reset;const pending=document.getElementById("remaining");if(pending)pending.onclick=focusPending}
@@ -346,7 +338,7 @@ function render(){
  const pages=flow();if(state.page>=pages.length)state.page=pages.length-1;
  const page=pages[state.page],logical=page.type==="start"?0:page.type==="summary"?3:page.type==="support"||page.role==="primary"||page.role==="prerequisite"||page.role==="companion"&&mainHas("plan")?1:2;
  app.className="screen"+(page.type==="start"?" start-screen":"");
- stage.innerHTML=["Profil","Découverte","Foyer","Offres"].map((label,i)=>'<span class="'+(i<=logical?"on":"")+'" '+(i===logical?'aria-current="step"':"")+'><b>'+(i+1)+'</b>'+label+'</span>').join("");
+ stage.innerHTML=["Profil","Découverte","Foyer","Proposition"].map((label,i)=>'<span class="'+(i<=logical?"on":"")+'" '+(i===logical?'aria-current="step"':"")+'><b>'+(i+1)+'</b>'+label+'</span>').join("");
  counter.textContent=(state.page+1)+" / "+pages.length;
  if(page.type==="start")renderStart();else if(page.type==="summary")renderSummary();else if(page.type==="support")renderSupport(page);else renderPage(page);
 }
