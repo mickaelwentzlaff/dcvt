@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Découverte — Aide-mémoire non officiel</title>
   <meta name="referrer" content="no-referrer">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-A2nFUG9VnTocOyO7WykdjV6qGBZ8PwdOd6qvzCPsv4c='; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-VIIzK/nOU3n4xcjyiNT/Rnu8RhHAxOz3nXOql+prHqY='; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'">
   <style>
 :root{--red:#df001b;--red-dark:#ae0016;--pink:#fff1f3;--ink:#191919;--muted:#68686e;--line:#e5e5e8;--soft:#f6f6f7;--surface:#fff;--radius:18px;--shadow:0 5px 22px rgba(25,25,30,.035)}
 *{box-sizing:border-box}html{scroll-padding-top:90px}body{margin:0;background:var(--soft);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.45;-webkit-text-size-adjust:100%}
@@ -20,15 +20,16 @@ button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulati
 .context-line{font-size:14px;color:#59595f;margin:12px 0 20px}.micro{font-size:12px;line-height:1.5;color:var(--muted);margin:6px 0 10px}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px;align-items:start}.check{display:flex;align-items:center;gap:13px;width:100%;min-height:70px;padding:16px;text-align:left;border:1px solid #dedee3;border-radius:14px;background:#fff;color:#2c2c31;font-size:15px;line-height:1.4;transition:background .15s,border-color .15s}.check::before{content:"";width:23px;height:23px;flex:none;border:1.5px solid #bfbfc8;border-radius:7px;background:white}.check.done{background:#fff7f8;border-color:#edb8c0;color:var(--red-dark)}.check.done::before{content:"✓";display:grid;place-items:center;background:var(--red);border-color:var(--red);color:#fff;font-weight:800;font-size:14px}.check-copy{min-width:0}.check-copy strong{display:block;font-size:15px;font-weight:650;line-height:1.35}.check-copy small{display:block;font-size:12px;line-height:1.45;color:var(--muted);margin-top:5px}.check:focus{outline:2px solid var(--red);outline-offset:3px}
 .outcome,.watch-block,.security,.risk-block{margin-top:20px;padding:20px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}.outcome h2,.watch-block h2{font-size:17px}.outcome .chips,.discovery-actions .chips{max-width:600px}.discovery-actions{margin-top:16px}.security,.risk-block{border-left:4px solid var(--red)}.security h2,.risk-block h2{font-size:15px;color:var(--red-dark)}.security .checklist,.risk-block .checklist,.watch-block .checklist{margin-top:12px}.watch-block>.micro{margin-top:0;font-size:11px;letter-spacing:.3px}.watch-hint{margin:7px 4px 0}.followup{margin:14px 0 0 18px;padding:18px 20px;background:#fff0f3;border:1px solid #edb6bf;border-left:4px solid var(--red);border-radius:14px}.followup-label{display:block;font-size:11px;font-weight:850;letter-spacing:.7px;text-transform:uppercase;color:var(--red-dark);margin-bottom:7px}.followup h2{font-size:16px;margin:0 0 14px}.followup .chips{max-width:600px}.answer-summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border:1px solid #eac4cb;background:#fff4f6;border-radius:14px;margin:18px 0;font-size:14px}.answer-summary .back{margin:0}
 .eligibility-step{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:54px;padding:15px 18px;margin:20px 0 0;border-radius:13px;background:var(--red);color:white;text-decoration:none;font-size:14px;font-weight:750}.eligibility-step::after{content:"↗";font-size:20px}.travel-links{display:flex;gap:8px;margin-top:8px}.travel-links a{display:flex;align-items:center;flex:1;min-width:0;min-height:46px;padding:9px 11px;border:1px solid #e5c8cd;border-radius:10px;background:white;font-size:12px;font-weight:650;text-decoration:none}
-.memory,.soft-followup{margin-top:16px}.memory summary,.soft-followup summary{min-height:46px;padding:12px 2px;cursor:pointer;color:#555;font-size:13px;font-weight:650}.memory[open]{padding-bottom:10px}.memory .chips{margin-top:8px}.soft-followup{border-top:1px solid var(--line)}.soft-followup p{font-size:15px;line-height:1.45;margin:0 0 8px}.coverage-list{list-style:none;padding:0;margin:6px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}.coverage-list li{display:flex;justify-content:space-between;gap:12px;padding:11px 12px;background:white;border:1px solid var(--line);border-radius:10px;font-size:12px}.coverage-list span{color:var(--muted);text-align:right}
 .actions{position:sticky;bottom:0;z-index:4;display:flex;align-items:center;gap:12px;min-height:78px;padding:14px 16px;margin-top:28px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.97);box-shadow:0 -5px 22px rgba(30,20,25,.045);backdrop-filter:blur(10px)}.back{min-width:44px;min-height:48px;padding:10px 8px;border:0;background:transparent;color:#65656b;font-size:13px;margin-right:auto}.back:disabled{opacity:.4}.next{min-height:50px;padding:13px 22px;border:1px solid var(--red);border-radius:11px;background:var(--red);color:white;font-size:14px;font-weight:750;line-height:1.3;white-space:nowrap}.next:disabled{border-color:#e3e3e7;background:#eaeaec;color:#73737a}.remaining{min-height:46px;border:0;border-radius:9px;background:transparent;color:var(--red-dark);font-size:12px;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px;padding:8px;max-width:180px}.remaining:empty{display:none}
-.summary-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;align-items:start}.summary-aside{min-width:0}.summary-box{padding:22px;background:white;border:1px solid var(--line);border-top:3px solid var(--red);border-radius:var(--radius);box-shadow:var(--shadow)}.summary-box>small{display:block;font-size:10px;font-weight:800;letter-spacing:1px;color:var(--red-dark)}.summary-box ul{margin:14px 0 0;padding-left:18px}.summary-box li{font-size:14px;line-height:1.5;margin:8px 0}.proposal-body{min-width:0}.proposal-body>h2{font-size:21px;letter-spacing:-.5px;margin:0 0 14px}.builder>.context-line{font-size:12px;margin:0 0 14px}.builder-group{padding:20px;margin-bottom:14px;border:1px solid var(--line);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}.builder-group h2{font-size:15px;margin-bottom:12px}.product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product{min-width:0;min-height:72px;padding:15px;border:1px solid #dcdce1;border-radius:12px;background:#fff;text-align:left;font-size:14px;line-height:1.35}.product strong{display:block;font-size:14px;font-weight:650}.product.on{background:var(--pink);border-color:var(--red);box-shadow:inset 0 0 0 .5px var(--red);color:var(--red-dark)}.qty-card{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}.qty{display:flex;align-items:center;gap:5px;margin-left:auto}.qty button{width:44px;height:44px;flex:none;border:1px solid #d9d9de;border-radius:10px;background:white;font-size:20px;color:var(--ink)}.qty button:disabled{opacity:.35}.qty b{min-width:17px;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}.specific{padding:12px 14px;background:var(--soft);border-radius:10px;font-size:13px;color:var(--muted)}.cart{padding:22px;margin-top:18px;background:#1b1b1e;color:white;border-radius:var(--radius);border-top:3px solid var(--red);box-shadow:var(--shadow)}.cart h2{font-size:18px;margin:0 0 14px}.cart-items{margin:0;padding-left:18px;font-size:14px;line-height:1.6}.cart-items li{margin:6px 0}.cart-note{color:#bdbdc5;font-size:12px;line-height:1.6;margin:16px 0 0;padding-top:14px;border-top:1px solid #3d3d42}
+.builder-group{padding:20px;margin-bottom:14px;border:1px solid var(--line);border-radius:var(--radius);background:white;box-shadow:var(--shadow)}.builder-group h2{font-size:15px;margin-bottom:12px}.product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.product{min-width:0;min-height:72px;padding:15px;border:1px solid #dcdce1;border-radius:12px;background:#fff;text-align:left;font-size:14px;line-height:1.35}.product strong{display:block;font-size:14px;font-weight:650}.product.on{background:var(--pink);border-color:var(--red);box-shadow:inset 0 0 0 .5px var(--red);color:var(--red-dark)}.qty-card{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}.qty{display:flex;align-items:center;gap:5px;margin-left:auto}.qty button{width:44px;height:44px;flex:none;border:1px solid #d9d9de;border-radius:10px;background:white;font-size:20px;color:var(--ink)}.qty button:disabled{opacity:.35}.qty b{min-width:17px;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}.specific{padding:12px 14px;background:var(--soft);border-radius:10px;font-size:13px;color:var(--muted)}.cart{padding:22px;margin-top:18px;background:#1b1b1e;color:white;border-radius:var(--radius);border-top:3px solid var(--red);box-shadow:var(--shadow)}.cart h2{font-size:18px;margin:0 0 14px}.cart-items{margin:0;padding-left:18px;font-size:14px;line-height:1.6}.cart-items li{margin:6px 0}.cart-note{color:#bdbdc5;font-size:12px;line-height:1.6;margin:16px 0 0;padding-top:14px;border-top:1px solid #3d3d42}
 .privacy-notice{width:min(1100px,calc(100% - 40px));margin:0 auto 30px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;line-height:1.65;color:var(--muted)}.privacy-notice summary{min-height:46px;padding:10px 0;cursor:pointer;font-weight:650}.privacy-notice a{color:inherit}
 @media(hover:hover){.chip:not(.on):hover,.product:not(.on):hover,.check:not(.done):hover{border-color:#b9b9c1;background:#fdfcfc}.next:not(:disabled):hover{background:var(--red-dark)}.remaining:hover{background:var(--pink)}}
-@media(min-width:960px){.summary-layout{grid-template-columns:310px minmax(0,1fr);gap:24px}.summary-aside{position:sticky;top:90px}.summary-aside:has(details[open]){position:static}.summary-aside .coverage-list{grid-template-columns:1fr}}
 @media(max-width:699px){.shell{width:calc(100% - 24px);padding-top:10px}.top{padding:10px 12px;gap:8px}.top-right{gap:6px}.logo{font-size:20px}.reset,.eligibility{font-size:12px;padding:10px;min-height:46px}.stage{gap:3px;padding:4px;margin-bottom:22px}.stage>span{font-size:11px;gap:4px}.stage b{display:none}.screen h1{font-size:29px}.profile-grid,.household-grid{grid-template-columns:1fr;gap:14px}.profile-card{padding:18px}.household-card{grid-column:auto}.household-grid>.group+.group{padding-top:18px;border-top:1px solid var(--line)}.checklist{grid-template-columns:1fr;gap:10px}.outcome,.watch-block,.security,.risk-block{padding:16px}.followup{margin-left:8px;padding:16px}.actions{gap:5px;padding:10px;min-height:72px}.next{padding:12px 14px;font-size:13px}.remaining{max-width:108px;font-size:11px}.back{font-size:12px;padding:8px 4px}.builder-group{padding:16px}.privacy-notice{width:calc(100% - 24px)}}
 @media(max-width:430px){.eligibility{font-size:0;gap:5px}.eligibility::before{content:"Éligibilité";font-size:12px}.eligibility::after{font-size:14px}.product-grid{grid-template-columns:1fr}.screen h1{font-size:27px}.coverage-list{grid-template-columns:1fr}.privacy-strip{font-size:10px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.profile-hint{font-size:15px;color:var(--red-dark);padding:14px 16px;background:var(--pink);border-radius:12px;margin:0}.offer-end{max-width:850px;margin:0 auto}.next{white-space:normal;text-align:center;max-width:300px}.group .chips:has([data-single="householdLines"]) .chip[data-value="?"],.group .chips:has([data-single="freeLines"]) .chip[data-value="?"]{grid-column:span 2}
+@media(min-width:700px){.outcome:has(>[class="chips"]) {display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,40%);gap:20px;align-items:center}.outcome:has(>[class="chips"]) h2{margin:0}.followup{display:grid;grid-template-columns:minmax(0,1fr) 220px;column-gap:20px;align-items:center}.followup-label{grid-column:1}.followup h2{grid-column:1;margin:0}.followup .chips{grid-column:2;grid-row:1 / 3}.risk-block{padding:16px 20px}.risk-block>.chips{gap:8px}.risk-block>.chips .chip{min-height:46px;padding:10px 12px}.check{min-height:66px;padding:14px}.outcome,.security,.watch-block{padding:18px}}
+.outcome.topic-entry{display:block}.topic-entry .chips{max-width:none}
 </style>
 </head>
 <body>
@@ -45,157 +46,310 @@ button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulati
   </details>
 <script>
 "use strict";
-const state={page:0,visit:"",owned:[],household:"",householdLines:"",freeLines:"",main:[],support:"",reboundConsent:"",checks:{},interests:{},tradeinInterests:{},insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}};
-state.points={};
-const pointOptions={mobile:["Petit budget","Beaucoup de data","Voyages","Réseau insatisfaisant"],box:["Wi-Fi à améliorer","Télétravail","TV / streaming","Facture trop élevée"],phone:["Autonomie","Photo","Mobile abîmé"]};
-function renderPoints(page){if(!pointOptions[page.id])return"";return `<details class="memory"><summary>À retenir de l’échange</summary><div class="chips">${pointOptions[page.id].map((label,i)=>`<button class="chip ${state.points[page.id+":"+i]?"on":""}" aria-pressed="${!!state.points[page.id+":"+i]}" data-point="${page.id+":"+i}">${label}</button>`).join("")}</div></details>`}
+const state={page:0,visit:"",owned:[],householdLines:"",freeLines:"",freeLinesAuto:false,main:[],support:"",assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:"",insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}};
 const app=document.getElementById("app"),counter=document.getElementById("counter"),stage=document.getElementById("stage");
-const core={
- support:{title:"Le besoin du jour",items:[["understand","Demande du client comprise"],["solve","Solution ou prochaine étape expliquée"]]},
- mobile:{title:"Les forfaits du foyer",items:[["contract","Offre actuelle : prix et engagement"],["uses","Appels, data et partage de connexion"],["travel","Voyages : Suisse, Europe, hors Europe"],["network","Ce qu’il aime chez son opérateur et ce qui ne lui plaît plus"]]},
- box:{title:"Internet à la maison",items:[["contract","Offre actuelle : prix et engagement"],["current","Ce qui plaît chez l’opérateur actuel, ce qui manque"],["home","Usages et appareils connectés"],["wifi","Logement et qualité du Wi-Fi"],["content","Télévision et contenus"]]},
- phone:{title:"Le téléphone",items:[["current","Mobile actuel et priorités : photo, autonomie, écran, stockage"],["budget","Budget et financement"],["tradein","Reprise"],["risk-context","Situations à risque : déplacements, travail, sport, enfants"],["risk-history","Casse, vol ou oxydation déjà vécus"]]}
-};
-const labels={main:{plan:"forfait",phone:"téléphone",box:"box",all:"tout revoir"},support:{bill:"facture",mobile:"forfait ou réseau",box:"Freebox",phone:"téléphone",account:"compte",other:"autre demande"},household:{all:"tout le foyer chez Free",part:"foyer en partie chez Free",none:"rien dans le foyer chez Free",unsure:"équipement du foyer à vérifier"}};
-// Catalogue de repères : aucun tarif ni règle commerciale locale.
 const catalog={boxes:[{id:"pop-s",name:"Freebox Pop S"},{id:"revolution",name:"Freebox Révolution Light"},{id:"pop",name:"Freebox Pop"},{id:"ultra-essential",name:"Freebox Ultra Essentiel"},{id:"ultra",name:"Freebox Ultra"},{id:"box-5g",name:"Box 5G"}],plans:[{id:"2e",name:"Forfait 2€"},{id:"serie",name:"Série Free"},{id:"5g",name:"Forfait Free 5G+"},{id:"max",name:"Forfait Free Max"}],security:[{id:"security",name:"McAfee Sécurité"},{id:"advanced",name:"McAfee Sécurité Avancé"}],insurance:[{id:"essential",name:"Assurance Mobile Essentielle"}],equipment:[{id:"watch",name:"Montre connectée — modèle à définir"}]};
-const hasOwned=x=>state.owned.includes(x);
-const mainHas=x=>state.main==="all"||(Array.isArray(state.main)?state.main.includes(x):state.main===x);
-function mainReady(){return Array.isArray(state.main)?state.main.length>0:!!state.main}
-function mainLabel(){return[["plan","forfait"],["phone","téléphone"],["box","box"]].filter(([id])=>mainHas(id)).map(([,label])=>label).join(" + ")}
-function startReady(){const total=Number(state.householdLines),free=Number(state.freeLines);return!!state.visit&&state.owned.length>0&&state.householdLines!==""&&state.freeLines!==""&&Number.isInteger(total)&&Number.isInteger(free)&&free>=0&&free<=total&&(!hasOwned("mobile")||free>0)&&(state.visit==="help"?!!state.support:mainReady())}
-function linesOutsideFree(){return Math.max(0,Number(state.householdLines)-Number(state.freeLines))}
-function hasLinesOutsideFree(){return linesOutsideFree()>0}
-function outsideLinesText(){const outside=linesOutsideFree();if(outside===1)return"1 ligne du foyer n’est pas encore chez Free";if(outside>1)return`${outside} lignes du foyer ne sont pas encore chez Free`;return outside===null&&hasLinesOutsideFree()?"Des lignes du foyer ne sont pas encore chez Free":""}
-function freeLineChoices(){const total=Number(state.householdLines)||0;return Array.from({length:total+1},(_,i)=>[String(i),i===0?"Aucune":String(i)]).filter(([v])=>!hasOwned("mobile")||Number(v)>0)}
-function securityAnchor(){if(mainHas("plan")||state.support==="mobile")return"mobile";if(mainHas("phone")||state.support==="phone")return"phone";if(mainHas("box")||state.support==="box")return"box";if(hasOwned("mobile"))return"mobile";if(hasOwned("box"))return"box";return"phone"}
-function securityItems(){return[["fraud","SMS / mails frauduleux déjà reçus"],["data","Fuites de données : vécu ou préoccupations"]]}
-function theme(id,role="rebound"){const page={id,type:"theme",role,title:core[id].title};page.items=core[id].items.filter(([item])=>!(id==="phone"&&item==="tradein"&&state.tradeinInterests[key(page,"tradein")]==="yes"));if(id==="phone"&&!hasOwned("mobile"))page.items=[["plan","Souscription d’un forfait Free prévue"],...page.items];return page}
-function flow(){const pages=[{id:"start",type:"start"}];if(!startReady())return pages;const commercial=[];if(state.visit==="help")pages.push({id:"support",type:"support",title:core.support.title,items:core.support.items});if(state.visit==="sale"){
-  if(mainHas("plan")){commercial.push(theme("mobile","primary"));if(!mainHas("phone"))commercial.push(theme("phone","companion"))}
-  if(mainHas("phone")){if(!hasOwned("mobile")&&!mainHas("plan"))commercial.push(theme("mobile","prerequisite"));commercial.push(theme("phone","primary"))}
+const hasOwned=id=>state.owned.includes(id);
+const mainHas=id=>state.main.includes(id);
+const knownCount=value=>value!==""&&value!=="?"&&Number.isInteger(Number(value))&&Number(value)>=0;
+const mainLabel=()=>state.main.map(id=>({plan:"forfait",phone:"téléphone",box:"box"})[id]).join(" + ");
+const core={
+ support:{title:"La demande du jour",items:[["understand","La demande est comprise"],["solve","La solution ou la prochaine étape est expliquée"]]},
+ mobile:{title:"Les forfaits",items:[["contract","Le forfait actuel"],["uses","Les usages"],["travel","Les voyages"],["network","Les points à améliorer"]]},
+ box:{title:"Internet à la maison",items:[["contract","L’offre actuelle"],["current","Les points à améliorer"],["home","Les usages à la maison"],["wifi","Le Wi-Fi"],["content","La télévision"]]},
+ phone:{title:"Le mobile",items:[["current","Les besoins du mobile"],["budget","Le budget"],["tradein","La reprise"]]}
+};
+const securityItems=()=>[["fraud","Des SMS ou mails suspects déjà reçus ?","Tentatives d’arnaque, liens douteux"],["data","Une fuite de données vous a déjà concerné ?","Alerte reçue ou inquiétude sur vos comptes"]];
+const riskItems=[["context","Où et comment utilisez-vous votre mobile ?","Déplacements, travail, loisirs, enfants"],["history","Déjà une casse, un vol ou une oxydation ?","Ce que cela a changé au quotidien"]];
+const watchQuestions=[["wellbeing","Sport, activité, sommeil : vous suivez quoi ?",""],["daily","Qu’aimeriez-vous faire sans sortir le mobile ?","Appels, notifications, musique"]];
+function normalizeHousehold(){
+ if(state.householdLines===""){state.freeLines="";state.freeLinesAuto=false;return}
+ if(state.householdLines==="?"){state.freeLines="?";state.freeLinesAuto=true;return}
+ if(!knownCount(state.householdLines)||Number(state.householdLines)>10){state.householdLines="";state.freeLines="";return}
+ const total=Number(state.householdLines);
+ if(hasOwned("mobile")&&total===0){state.householdLines="";state.freeLines="";return}
+ if(total===0){state.freeLines="0";state.freeLinesAuto=true;return}
+ if(total===1&&hasOwned("mobile")){state.freeLines="1";state.freeLinesAuto=true;return}
+ if(state.freeLines==="?"||state.freeLines==="")return;
+ if(!knownCount(state.freeLines)||Number(state.freeLines)>total||(hasOwned("mobile")&&Number(state.freeLines)===0))state.freeLines="";
+}
+function startReady(){
+ if(!state.visit||!state.owned.length||state.householdLines===""||state.freeLines==="")return false;
+ if(state.visit==="help"?!state.support:!state.main.length)return false;
+ if(state.householdLines==="?")return state.freeLines==="?";
+ if(!knownCount(state.householdLines)||Number(state.householdLines)>10||(hasOwned("mobile")&&Number(state.householdLines)===0))return false;
+ return state.freeLines==="?"||(knownCount(state.freeLines)&&Number(state.freeLines)<=Number(state.householdLines)&&(!hasOwned("mobile")||Number(state.freeLines)>0));
+}
+function linesOutsideFree(){return knownCount(state.householdLines)&&knownCount(state.freeLines)?Math.max(0,Number(state.householdLines)-Number(state.freeLines)):null}
+function hasLinesOutsideFree(){return linesOutsideFree()!==null&&linesOutsideFree()>0}
+function outsideLinesText(){const n=linesOutsideFree();return n===null?"Les forfaits du foyer restent à préciser":n===1?"1 forfait du foyer est chez un autre opérateur":n>1?n+" forfaits du foyer sont chez d’autres opérateurs":""}
+function householdText(){return state.householdLines==="?"?"Nombre de forfaits du foyer à vérifier":state.householdLines+" forfait"+(Number(state.householdLines)>1?"s":"")+" dans le foyer · "+(state.freeLines==="?"?"nombre chez Free à vérifier":state.freeLines+" chez Free")}
+function freeLineChoices(){const min=hasOwned("mobile")?1:0;return [...Array.from({length:Number(state.householdLines)-min+1},(_,i)=>[String(i+min),i+min===0?"Aucun":String(i+min)]),["?","À vérifier"]]}
+function key(page,item){return page.id+":"+(page.role||page.type)+":"+item}
+function theme(id,role){return{id,type:"theme",role,title:core[id].title,items:core[id].items.filter(([item])=>!(id==="phone"&&item==="tradein"&&state.tradeinInterests["phone:"+role+":tradein"]==="yes"))}}
+function interestPage(page){return page.type==="theme"&&(page.role==="rebound"||page.role==="companion"||page.role==="prerequisite")}
+function reboundOpen(page){return !interestPage(page)||state.interests[key(page,"interest")]==="yes"||(page.id==="phone"&&state.interests[key(page,"interest")]==="no"&&state.tradeinInterests[key(page,"tradein")]==="yes")}
+function flow(){
+ const pages=[{id:"start",type:"start"}];if(!startReady())return pages;
+ const commercial=[];
+ if(state.visit==="help")pages.push({id:"support",type:"support",title:core.support.title,items:core.support.items});
+ if(state.visit==="sale"){
+  if(mainHas("plan"))commercial.push(theme("mobile","primary"));
+  else if(mainHas("phone")&&!hasOwned("mobile"))commercial.push(theme("mobile","prerequisite"));
+  if(mainHas("phone"))commercial.push(theme("phone","primary"));
+  else if(mainHas("plan"))commercial.push(theme("phone","companion"));
   if(mainHas("box"))commercial.push(theme("box","primary"));
  }
- const ids=()=>commercial.map(x=>x.id);
- if(!ids().includes("mobile")&&hasLinesOutsideFree())commercial.push(theme("mobile","rebound"));if(!ids().includes("phone"))commercial.push(theme("phone","rebound"));if(!ids().includes("box")&&!hasOwned("box"))commercial.push(theme("box","rebound"));
- if(!commercial.length)commercial.push(theme(hasOwned("mobile")?"mobile":"phone","rebound"));
- const watchHost=commercial.find(x=>x.id==="mobile"&&x.role==="primary")||commercial.find(x=>x.id==="phone");if(watchHost)watchHost.watch=true;
- const securityHost=commercial.find(x=>x.type==="theme"&&x.id===securityAnchor())||commercial.find(x=>x.role==="primary")||commercial.find(x=>x.type==="theme");securityHost.security=true;securityHost.securityAnchor=securityHost.id;const firstRebound=commercial.findIndex(x=>x.role==="rebound");if(firstRebound>=0)commercial.splice(firstRebound,0,{id:"rebound-intro",type:"rebound-intro"});pages.push(...commercial,{id:"summary",type:"summary"});return pages}
-function key(page,item){return page.id+":"+(page.role==="companion"?"rebound":page.role)+":"+item}
-function interestPage(page){return page.role==="rebound"||page.role==="companion"}
+ if(!commercial.some(p=>p.id==="mobile")&&(hasLinesOutsideFree()||linesOutsideFree()===null))commercial.push(theme("mobile","rebound"));
+ if(!commercial.some(p=>p.id==="phone"))commercial.push(theme("phone",commercial.some(p=>p.id==="mobile")?"companion":"rebound"));
+ if(!commercial.some(p=>p.id==="box")&&!hasOwned("box"))commercial.push(theme("box","rebound"));
+ const securityHost=commercial.find(p=>p.role==="primary")||commercial[0];
+ if(securityHost){securityHost.security=true;securityHost.securityAnchor=securityHost.id}
+ const mobile=commercial.find(p=>p.id==="mobile");
+ const watchHost=mobile&&reboundOpen(mobile)&&(mobile.role!=="rebound"||hasOwned("mobile"))?mobile:commercial.find(p=>p.id==="phone");
+ if(watchHost)watchHost.watch=true;
+ return [...pages,...commercial,{id:"summary",type:"summary"}];
+}
 function phoneCompanion(){return flow().find(p=>p.id==="phone"&&p.role==="companion")}
-function phoneChoiceDone(){const phone=phoneCompanion();return !phone||reboundOpen(phone)||pageDone(phone)}
-function pageChecksDone(page){return page.items.every(([id])=>state.checks[key(page,id)])}
-function securityDone(page){return!page.security||securityItems(page.securityAnchor).every(([id])=>state.checks["security:"+id])}
-function insuranceDone(page){return page.id!=="phone"||!!state.insuranceOutcome}
-function reboundOpen(page){return!interestPage(page)||state.interests[key(page,"interest")]==="yes"||(state.interests[key(page,"interest")]==="no"&&page.id==="phone"&&state.tradeinInterests[key(page,"tradein")]==="yes")}
-function pageDone(page){if(page.type==="start")return startReady();if(page.type==="support")return pageChecksDone(page);if(page.type==="rebound-intro")return!!state.reboundConsent;if(page.type==="theme"){if(!watchDone(page))return false;if(page.id==="mobile"&&page.role==="primary"&&phoneCompanion()&&!phoneChoiceDone())return false;if(interestPage(page)&&!reboundOpen(page)){if(state.interests[key(page,"interest")]!=="no")return false;if(page.id==="phone"&&(state.tradeinInterests[key(page,"tradein")]!=="no"||!state.insuranceOutcome))return false;return securityDone(page)}return pageChecksDone(page)&&securityDone(page)&&insuranceDone(page)}return true}
-function routeLabel(page){if(page.type==="support")return"Le besoin du jour";if(page.role==="primary")return"Votre demande";if(page.role==="companion")return"Avec votre forfait";if(page.role==="prerequisite")return"Forfait nécessaire";return"Pour aller plus loin"}
-function householdChoices(){return hasOwned("none")?[["none","Non, rien"],["part","Oui, en partie"],["all","Oui, tout"]]:[["all","Oui, tout"],["part","Non, une partie seulement"],["unsure","À vérifier"]]}
-function renderStart(){const showOwned=!!state.visit,showLines=state.owned.length>0,showFreeLines=state.householdLines!==""&&state.householdLines!=="0";app.innerHTML=`<div class="meta"><span>Point de départ</span></div><h1>La visite</h1><div class="profile-grid"><div class="profile-card">${group("Motif de visite",single("visit",[["help","Assistance"],["sale","Conseil ou achat"]]))}${state.visit?(state.visit==="help"?group("Besoin d’assistance",single("support",[["bill","Facture"],["mobile","Forfait ou réseau"],["box","Freebox"],["phone","Téléphone"],["account","Compte"],["other","Autre"]])):group("Besoin principal",multiMain())):""}</div>${showOwned?`<div class="profile-card">${group("Qu’avez-vous chez Free ?",multiOwned())}</div>`:""}${showLines?'<div class="profile-card household-card"><div class="household-grid">':""}${showLines?group("Combien de forfaits mobiles dans le foyer ?",single("householdLines",Array.from({length:11},(_,i)=>[String(i),i===0?"Aucun":String(i)]))):""}${showFreeLines?group("Combien de ces forfaits sont chez Free ?",single("freeLines",freeLineChoices())):""}${showLines?"</div></div>":""}</div>${actions(false,startReady(),"Commencer")}`;bindStart()}
-function renderReboundIntro(){app.innerHTML=`<div class="meta"><span>Avant le rebond</span></div><h1>On prend 2 minutes pour faire le point sur vos offres ?</h1><div class="chips"><button class="chip ${state.reboundConsent==="yes"?"on":""}" data-rebound-consent="yes">Oui</button><button class="chip ${state.reboundConsent==="no"?"on":""}" data-rebound-consent="no">Non</button></div>${actions(true,pageDone({type:"rebound-intro"}),"Continuer")}`;document.querySelectorAll("[data-rebound-consent]").forEach(b=>b.onclick=()=>{state.reboundConsent=b.dataset.reboundConsent;if(!watchInScope())clearWatch();render()});bindActions()}
-function group(title,content){return`<section class="group" role="group" aria-label="${title}"><h2>${title}</h2><div class="chips">${content}</div></section>`}
-function single(field,items){return items.map(([v,l])=>`<button class="chip ${state[field]===v?"on":""}" aria-pressed="${state[field]===v}" data-single="${field}" data-value="${v}">${l}</button>`).join("")}
-function multiOwned(){return[["none","Rien chez Free"],["box","Une Freebox"],["phone","Un téléphone"],["mobile","Un ou plusieurs forfaits"]].map(([v,l])=>`<button class="chip ${state.owned.includes(v)?"on":""}" aria-pressed="${state.owned.includes(v)}" data-owned="${v}">${l}</button>`).join("")}
-function multiMain(){return[["plan","Forfait"],["phone","Téléphone"],["box","Box"]].map(([v,l])=>`<button class="chip ${mainHas(v)?"on":""}" aria-pressed="${mainHas(v)}" data-main="${v}">${l}</button>`).join("")}
-function selectOwned(v){const wasNone=hasOwned("none");if(v==="none"){state.owned=["none"];state.household="";state.householdLines="";state.freeLines="";return}state.owned=state.owned.filter(x=>x!=="none");state.owned=state.owned.includes(v)?state.owned.filter(x=>x!==v):[...state.owned,v];if(wasNone||!state.owned.length){state.household="";state.householdLines="";state.freeLines=""}}
-const prompts={
- mobile:{contract:["Quel forfait aujourd’hui ?","Prix · engagement"],uses:["Quels usages au quotidien ?","Appels · data · partage de connexion"],travel:["Quand vous voyagez, où allez-vous ?","Suisse · Europe · hors Europe"],network:["Qu’aimez-vous chez votre opérateur ?","Et ce qui ne vous plaît plus"]},
- box:{contract:["Quelle offre aujourd’hui ?","Prix · engagement"],current:["Qu’est-ce qui vous plaît, ou moins ?","Chez votre opérateur actuel"],home:["Qui utilise Internet, et pour quoi ?","Usages · appareils connectés"],wifi:["Comment passe le Wi-Fi chez vous ?","Logement · couverture"],content:["Que regardez-vous ?","TV · streaming"]},
- phone:{current:["Qu’attendez-vous de votre mobile ?","Photo · autonomie · écran · stockage"],budget:["Quel budget vous convient ?","Achat · financement"],tradein:["Et la reprise ?","Votre mobile actuel"],"risk-context":["Où et comment utilisez-vous le mobile ?","Déplacements · travail · sport · enfants"],"risk-history":["Déjà eu une mauvaise surprise ?","Casse · vol · oxydation"]}
-};
-function renderChecklistItem(page,id,label){const prompt=prompts[page.id]?.[id];const button=`<button class="check ${state.checks[key(page,id)]?"done":""}" aria-pressed="${!!state.checks[key(page,id)]}" data-check="${key(page,id)}">${prompt?`<span class="check-copy"><strong>${prompt[0]}</strong><small>${prompt[1]}</small></span>`:label}</button>`;if(page.id!=="mobile"||id!=="travel")return button;return`<div class="check-wrap">${button}<div class="travel-links"><a href="https://mobile.free.fr/fiche-forfait-free?modal=roaming-destinations" target="_blank" rel="noopener noreferrer">Destinations Free 5G+</a><a href="https://mobile.free.fr/forfait-free-max" target="_blank" rel="noopener noreferrer">Free Max · Voir les destinations incluses</a></div></div>`}
-function renderChecklist(page){if(page.id!=="phone")return`<div class="checklist">${page.items.map(([id,label])=>renderChecklistItem(page,id,label)).join("")}</div>`;const regular=page.items.filter(([id])=>!id.startsWith("risk-")),risks=page.items.filter(([id])=>id.startsWith("risk-"));return`<div class="checklist">${regular.map(([id,label])=>renderChecklistItem(page,id,label)).join("")}</div><section class="risk-block"><h2>Situations à risque</h2><div class="checklist">${risks.map(([id,label])=>renderChecklistItem(page,id,label)).join("")}</div></section>`}
-function renderSoftFollowup(question){return`<details class="soft-followup"><summary>Une relance, si utile</summary><p>${question}</p></details>`}
-function renderInterest(page){
- if(!interestPage(page))return"";
- if(page.role==="companion"&&flow()[state.page]?.id!=="mobile"&&reboundOpen(page)){const reprise=state.tradeinInterests[key(page,"tradein")]==="yes";return`<div class="answer-summary"><span>${reprise?"Changement de mobile avec reprise":"Changement de mobile souhaité"}</span><button class="back" data-edit-phone>Modifier</button></div>`}
- const k=key(page,"interest"),value=state.interests[k],phone=page.id==="phone";
- const question={mobile:hasLinesOutsideFree()?"Comment ça se passe avec les autres forfaits du foyer ?":"Qu’attendez-vous de votre forfait ?",box:"À la maison, comment ça se passe avec Internet ?",phone:"Souhaitez-vous changer de mobile ?"}[page.id];
- const choices=phone?[["yes","Oui"],["no","Non"]]:[["yes","Comparer avec Free"],["no","On en reste là"]];
- const first=`<section class="outcome"><h2>${question}</h2><div class="${phone?"":"discovery-actions"}">${phone?"":'<p class="micro">Suite de l’échange</p>'}<div class="chips">${choices.map(([v,l])=>`<button class="chip ${value===v?"on":""}" aria-pressed="${value===v}" data-interest="${k}" data-value="${v}">${l}</button>`).join("")}</div></div></section>`;
- if(phone&&value==="no"){const tk=key(page,"tradein"),trade=state.tradeinInterests[tk];return first+`<section class="followup"><span class="followup-label">Relance reprise</span><h2>Et avec la reprise de votre mobile actuel, vous seriez prêt à regarder ?</h2><div class="chips">${[["yes","Oui"],["no","Non"]].map(([v,l])=>`<button class="chip ${trade===v?"on":""}" aria-pressed="${trade===v}" data-tradein="${tk}" data-value="${v}">${l}</button>`).join("")}</div></section>`+(trade==="no"?renderInsurance(page,true)+renderSecurity(page,true):"")}
- return first+(value==="no"?renderSoftFollowup(page.id==="box"?"Qu’est-ce qui vous convient dans votre solution actuelle ?":"Qu’est-ce qui compte le plus dans vos forfaits actuels ?")+renderSecurity(page,true):"");
-}
-
-const watchQuestions=[
- ["wellbeing","Forme, sport, sommeil : qu’aimeriez-vous suivre ?","Sans détail médical."],
- ["daily","Qu’aimeriez-vous faire sans sortir le mobile ?","Appels, notifications, musique…"]
-];
-function watchEligible(){
- if(hasOwned("mobile")||(state.visit==="sale"&&mainHas("plan"))||state.interests["mobile:rebound:interest"]==="yes")return true;
- const role=state.visit==="sale"&&mainHas("phone")?"primary":"rebound",interest=state.interests["phone:"+role+":interest"];
- const phoneWanted=role==="primary"||interest==="yes"||(interest==="no"&&state.tradeinInterests["phone:"+role+":tradein"]==="yes");
- return phoneWanted&&!!state.checks["phone:"+role+":plan"];
-}
+function mobilePage(){return flow().find(p=>p.id==="mobile")}
+function phoneInline(page){const phone=phoneCompanion();return page.id==="mobile"&&reboundOpen(page)&&phone?phone:null}
+function phoneWanted(page){return reboundOpen(page)}
+function phoneDecisionDone(page){return !interestPage(page)||state.interests[key(page,"interest")]==="yes"||(state.interests[key(page,"interest")]==="no"&&!!state.tradeinInterests[key(page,"tradein")])}
+function personalPlanPlanned(){const mobile=mobilePage();return !!(mobile&&mobile.role!=="rebound"&&reboundOpen(mobile))}
+function phonePurchaseAllowed(){return hasOwned("mobile")||personalPlanPlanned()||state.phonePlan==="yes"}
+function phoneChanging(page){return phoneWanted(page)&&phonePurchaseAllowed()}
+function phonePlanRequired(page){const mobile=mobilePage();return phoneWanted(page)&&!hasOwned("mobile")&&!personalPlanPlanned()&&!(mobile?.role==="prerequisite"&&state.interests[key(mobile,"interest")]==="no")}
+function watchEligible(){return phonePurchaseAllowed()}
+function isSkippedRebound(page){return state.visit==="help"&&state.assistanceConsent==="no"&&page.type==="theme"}
 function watchInScope(){return watchEligible()&&flow().some(p=>p.watch&&!isSkippedRebound(p))}
 function watchDone(page){return !page.watch||!watchEligible()||state.watchInterest==="no"||(state.watchInterest==="yes"&&watchQuestions.every(([id])=>state.checks["watch:"+id]))}
 function clearWatch(){state.watchInterest="";state.cart.watch="";for(const [id] of watchQuestions)delete state.checks["watch:"+id]}
-function clearWatchIfUnavailable(){if(!watchEligible())clearWatch()}
+function clearWatchIfUnavailable(){if(!watchInScope())clearWatch()}
 function setWatchInterest(value){if(!["yes","no"].includes(value)||!watchInScope()||state.watchInterest===value)return;state.cart.watch="";state.watchInterest=value}
-function renderWatchQuestions(){return`<div class="checklist">${watchQuestions.map(([id,question,hint])=>`<div class="check-wrap"><button class="check ${state.checks["watch:"+id]?"done":""}" aria-pressed="${!!state.checks["watch:"+id]}" data-check="watch:${id}">${question}</button>${hint?`<p class="micro watch-hint">${hint}</p>`:""}</div>`).join("")}</div>`}
+function pageChecksDone(page){return page.items.every(([id])=>state.checks[key(page,id)])}
+function securityDone(page){return !page.security||securityItems().every(([id])=>state.checks["security:"+id])}
+function insuranceRisksRequired(changing){return ["propose","verify"].includes(state.insuranceOutcome)||(changing&&!state.insuranceOutcome)}
+function insuranceDone(changing){return !!state.insuranceOutcome&&(!insuranceRisksRequired(changing)||riskItems.every(([id])=>state.checks["insurance:"+id]))}
+function phoneChoiceDone(phone=phoneCompanion()){return !phone||(phoneDecisionDone(phone)&&(phoneWanted(phone)||insuranceDone(false)))}
+function pageDone(page){if(page.type==="start")return startReady();return remainingSteps(page)===0}
+function routeLabel(page){return page.type==="support"?"Assistance":page.role==="primary"?"La demande du jour":page.role==="prerequisite"?"Avec ce mobile":page.role==="companion"?"Mobile et forfait":"Rebond · "+({mobile:"forfaits du foyer",box:"Freebox",phone:"mobile"})[page.id]}
+function group(title,content){return '<section class="group" role="group" aria-label="'+title+'"><h2>'+title+'</h2><div class="chips">'+content+'</div></section>'}
+function single(field,items){return items.map(([value,label])=>'<button class="chip '+(state[field]===value?"on":"")+'" aria-pressed="'+(state[field]===value)+'" data-single="'+field+'" data-value="'+value+'">'+label+'</button>').join("")}
+function multiOwned(){return [["none","Rien chez Free"],["box","Une Freebox"],["phone","Un téléphone"],["mobile","Un ou plusieurs forfaits"]].map(([value,label])=>'<button class="chip '+(hasOwned(value)?"on":"")+'" aria-pressed="'+hasOwned(value)+'" data-owned="'+value+'">'+label+'</button>').join("")}
+function multiMain(){return [["plan","Forfait"],["phone","Téléphone"],["box","Box"]].map(([value,label])=>'<button class="chip '+(mainHas(value)?"on":"")+'" aria-pressed="'+mainHas(value)+'" data-main="'+value+'">'+label+'</button>').join("")}
+function renderStart(){
+ const showLines=state.owned.length>0,total=state.householdLines,automatic=total==="0"||(total==="1"&&hasOwned("mobile"));
+ app.innerHTML='<div class="meta">Point de départ</div><h1>La visite</h1><div class="profile-grid"><div class="profile-card">'+group("Motif de visite",single("visit",[["help","Assistance"],["sale","Conseil ou achat"]]))+(state.visit?(state.visit==="help"?group("Besoin d’assistance",single("support",[["bill","Facture"],["mobile","Forfait ou réseau"],["box","Freebox"],["phone","Téléphone"],["account","Compte"],["other","Autre"]])):group("Besoin principal",multiMain())):"")+'</div>'+(state.visit?'<div class="profile-card">'+group("Qu’avez-vous chez Free ?",multiOwned())+'</div>':"")+(showLines?'<div class="profile-card household-card"><div class="household-grid">'+group("Combien de forfaits dans le foyer ?",single("householdLines",[...Array.from({length:hasOwned("mobile")?10:11},(_,i)=>{const n=i+(hasOwned("mobile")?1:0);return[String(n),n===0?"Aucun":String(n)]}),["?","À vérifier"]]))+(total!==""?(automatic?'<section class="group"><h2>Chez Free</h2><p class="profile-hint">'+(total==="0"?"Aucun forfait dans le foyer.":"Votre seul forfait est déjà chez Free.")+'</p></section>':total==="?"?'<section class="group"><h2>Chez Free</h2><p class="profile-hint">À préciser pendant l’échange.</p></section>':group("Dont combien chez Free ?",single("freeLines",freeLineChoices()))):"")+'</div></div>':"")+'</div>'+actions(false,startReady(),"Commencer");
+ bindStart();
+}
+const prompts={
+ mobile:{contract:["Quel forfait aujourd’hui ?","Prix, engagement"],uses:["Quels usages au quotidien ?","Appels, Internet, partage de connexion"],travel:["Quand vous voyagez, où allez-vous ?","Suisse, Europe, hors Europe"],network:["Qu’aimez-vous chez votre opérateur actuel ?","Et ce qui ne vous plaît plus"]},
+ box:{contract:["Quelle connexion à la maison ?","Box ou partage mobile · prix, engagement"],current:["Qu’est-ce qui plaît… ou manque ?","Dans votre connexion actuelle"],home:["Qui utilise Internet, et pour quoi ?","Télétravail, jeux, appareils connectés"],wifi:["Comment passe le Wi-Fi chez vous ?","Pièces, étages, zones mal couvertes"],content:["Que regardez-vous ?","TV, streaming, services déjà payés"]},
+ phone:{current:["Qu’attendez-vous de votre prochain mobile ?","Photo, autonomie, écran, stockage"],budget:["Quel budget vous convient ?","Achat, financement"],tradein:["Et la reprise de votre mobile ?","Faire estimer sa valeur"]}
+};
+function renderCheck(checkKey,question,hint=""){return '<button class="check '+(state.checks[checkKey]?"done":"")+'" aria-pressed="'+!!state.checks[checkKey]+'" data-check="'+checkKey+'"><span class="check-copy"><strong>'+question+'</strong>'+(hint?'<small>'+hint+'</small>':"")+'</span></button>'}
+function renderChecklistItem(page,id,label){
+ let [question,hint]=prompts[page.id]?.[id]||[label,""];
+ if(page.id==="mobile"&&id==="network"&&hasOwned("mobile")&&page.role!=="rebound"&&page.role!=="phone"){question="Tout va bien avec votre forfait ?";hint="Ce qui plaît, ce que vous aimeriez changer"}
+ if(page.id==="box"&&hasOwned("box")){if(id==="contract")question="Quelle Freebox avez-vous ?";if(id==="current"){question="Qu’aimeriez-vous améliorer avec votre Freebox ?";hint="Ce qui plaît, ce qui manque"}}
+ const button=renderCheck(key(page,id),question,hint);
+ return page.id==="mobile"&&id==="travel"?'<div class="check-wrap">'+button+'<div class="travel-links"><a href="https://mobile.free.fr/fiche-forfait-free?modal=roaming-destinations" target="_blank" rel="noopener noreferrer">Destinations Free 5G+</a><a href="https://mobile.free.fr/forfait-free-max" target="_blank" rel="noopener noreferrer">Free Max · Voir les destinations incluses</a></div></div>':button;
+}
+function renderChecklist(page){return '<div class="checklist">'+page.items.map(([id,label])=>renderChecklistItem(page,id,label)).join("")+'</div>'}
+function reboundQuestion(page){
+ if(page.role==="prerequisite")return "Pour ce mobile, on associe un forfait Free. On le regarde ensemble ?";
+ if(page.id==="box")return "Et pour Internet à la maison, vous êtes chez qui ?";
+ const n=linesOutsideFree();
+ if(n===null)return "Et les forfaits du foyer, lesquels sont chez un autre opérateur ?";
+ return "Et "+(n===1?"le forfait ailleurs":"les "+n+" forfaits ailleurs")+", qu’aimeriez-vous améliorer ?";
+}
+function assistanceOpening(){
+ const topics=flow().filter(page=>page.type==="theme").map(page=>({mobile:"les forfaits du foyer",phone:"votre mobile",box:"Internet à la maison"})[page.id]);
+ return "On regarde aussi "+(topics.length===1?topics[0]:topics.slice(0,-1).join(", ")+" et "+topics[topics.length-1])+" ?";
+}
+function renderInterest(page){
+ if(!interestPage(page)||page.id==="phone")return "";
+ const value=state.interests[key(page,"interest")],entry=page.role==="rebound";
+ const choices=page.role==="prerequisite"?[["yes","Étudier le forfait"],["no","Sans forfait Free"]]:[["yes",page.id==="box"?"Comparer les Freebox":"Comparer les forfaits"],["no","Pas de besoin"]];
+ return '<section class="outcome'+(entry?' topic-entry':'')+'">'+(entry?'':'<h2>'+reboundQuestion(page)+'</h2>')+'<div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(value===v?"on":"")+'" aria-pressed="'+(value===v)+'" data-interest="'+key(page,"interest")+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>';
+}
+function renderPhoneChoice(page,inline=false){
+ if(!interestPage(page))return "";
+ const k=key(page,"interest"),value=state.interests[k],trade=state.tradeinInterests[key(page,"tradein")];
+ if(!inline&&phoneInline(mobilePage()||{})&&phoneDecisionDone(page))return '<div class="answer-summary"><span>'+(!phoneWanted(page)?"Mobile conservé":trade==="yes"?"Nouveau mobile · avec reprise":"Nouveau mobile")+'</span><button class="back" data-edit-phone>Modifier</button></div>';
+ const choices=[["yes","Oui"],["no","Non"]];
+ const first='<section class="outcome"><h2>Souhaitez-vous changer de mobile ?</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(value===v?"on":"")+'" aria-pressed="'+(value===v)+'" data-interest="'+k+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>';
+ if(value!=="no")return first;
+ return first+'<section class="followup"><span class="followup-label">Et avec une reprise ?</span><h2>Avec une reprise, vous changeriez de mobile ?</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(trade===v?"on":"")+'" aria-pressed="'+(trade===v)+'" data-tradein="'+key(page,"tradein")+'" data-value="'+v+'">'+label+'</button>').join("")+'</div></section>'+(inline&&trade==="no"?renderInsurance(false):"");
+}
+function renderPhonePlan(page){
+ const mobile=mobilePage();
+ if(mobile?.role==="prerequisite"&&state.interests[key(mobile,"interest")]==="no")return '<p class="context-line">On conserve le mobile. Un achat ici nécessiterait un forfait Free à votre nom.</p>';
+ if(!phonePlanRequired(page))return "";
+ return '<section class="outcome"><h2>Un forfait Free à votre nom est nécessaire.</h2><div class="chips">'+[["yes","Prévoir un forfait Free"],["no","Garder mon forfait actuel"]].map(([v,label])=>'<button class="chip '+(state.phonePlan===v?"on":"")+'" aria-pressed="'+(state.phonePlan===v)+'" data-phone-plan="'+v+'">'+label+'</button>').join("")+'</div></section>'+(state.phonePlan==="yes"?'<section class="outcome"><h2>Les besoins du forfait associé</h2>'+renderChecklist({...theme("mobile","phone"),role:"phone"})+'</section>':state.phonePlan==="no"?'<p class="context-line">On conserve le mobile. Un achat ici nécessiterait un forfait Free à votre nom.</p>':"");
+}
+function renderInsurance(changing){
+ const choices=changing?[["propose","Étudier une assurance"],["insured","Déjà couvert"],["decline","Sans assurance"]]:[["insured","Oui"],["propose","Non"],["verify","À vérifier"],["decline","Pas de suite"]];
+ return '<section class="risk-block"><h2>'+(changing?"Comment protéger ce mobile ?":"Votre mobile est-il déjà assuré ?")+'</h2><div class="chips">'+choices.map(([v,label])=>'<button class="chip '+(state.insuranceOutcome===v?"on":"")+'" aria-pressed="'+(state.insuranceOutcome===v)+'" data-insurance-outcome="'+v+'">'+label+'</button>').join("")+'</div>'+(insuranceRisksRequired(changing)?'<div class="checklist">'+riskItems.map(([id,q,hint])=>renderCheck("insurance:"+id,q,hint)).join("")+'</div>':"")+'</section>';
+}
+function renderSecurity(page){return !page.security?"":'<section class="security"><h2>'+({mobile:"Sécurité des usages mobiles · McAfee",box:"Sécurité des appareils du foyer · McAfee",phone:"Sécurité du mobile · McAfee"})[page.securityAnchor]+'</h2><div class="checklist">'+securityItems().map(([id,q,hint])=>renderCheck("security:"+id,q,hint)).join("")+'</div></section>'}
 function renderWatch(page){
  if(!page.watch||!watchEligible())return "";
- return `<section class="watch-block"><p class="micro">${hasOwned("mobile")?"Avec votre forfait Free":"Avec un forfait Free à souscrire"}</p><h2>Et au quotidien ?</h2>${renderWatchQuestions()}<div class="discovery-actions"><p class="micro">Suite de l’échange</p><div class="chips">${[["yes","Explorer une montre"],["no","On en reste là"]].map(([value,label])=>`<button class="chip ${state.watchInterest===value?"on":""}" aria-pressed="${state.watchInterest===value}" data-watch-interest="${value}">${label}</button>`).join("")}</div></div>${state.watchInterest==="no"?renderSoftFollowup("Qu’est-ce qui rendrait une montre utile pour vous ?"):""}</section>`;
+ return '<section class="watch-block"><p class="micro">'+(hasOwned("mobile")?"Avec votre forfait Free":"Avec le forfait Free envisagé")+'</p><h2>Une montre au quotidien</h2><div class="checklist">'+watchQuestions.map(([id,q,hint])=>renderCheck("watch:"+id,q,hint)).join("")+'</div><div class="discovery-actions"><div class="chips">'+[["yes","Explorer une montre"],["no","Pas de besoin"]].map(([v,label])=>'<button class="chip '+(state.watchInterest===v?"on":"")+'" aria-pressed="'+(state.watchInterest===v)+'" data-watch-interest="'+v+'">'+label+'</button>').join("")+'</div></div></section>';
 }
-function renderInsurance(page){if(page.id!=="phone")return"";return`<section class="outcome"><h2>Votre mobile est-il déjà assuré ?</h2><div class="chips">${[["propose","À assurer"],["insured","Déjà assuré"],["decline","Non souhaité"]].map(([v,l])=>`<button class="chip ${state.insuranceOutcome===v?"on":""}" aria-pressed="${state.insuranceOutcome===v}" data-insurance-outcome="${v}">${l}</button>`).join("")}</div></section>`}
-function renderSecurity(page){if(!page.security)return"";const title={mobile:"McAfee · usages mobiles",box:"McAfee · usages à la maison",phone:"McAfee · sécurité du mobile"}[page.securityAnchor];return`<section class="security"><h2>${title}</h2><div class="checklist">${securityItems().map(([id,label])=>`<button class="check ${state.checks["security:"+id]?"done":""}" aria-pressed="${!!state.checks["security:"+id]}" data-check="security:${id}">${label}</button>`).join("")}</div></section>`}
-function renderPage(page){const open=reboundOpen(page),lineNote=page.id==="mobile"?`<p class="context-line">${state.householdLines} ligne${Number(state.householdLines)>1?"s":""} dans le foyer · ${state.freeLines} chez Free${hasLinesOutsideFree()?` · ${linesOutsideFree()} à étudier hors Free`:""}</p>`:"";const boxLink=page.id==="box"&&open?`<a class="eligibility-step" href="https://signup.free.fr/subscribe_promo/00_insert_addr.pl" target="_blank" rel="noopener noreferrer">1. Lancer le test d’éligibilité</a>`:"";app.innerHTML=`<div class="meta"><span>${routeLabel(page)}</span></div><h1>${page.title}</h1>${lineNote}${page.id==="mobile"&&page.role==="primary"&&phoneCompanion()?renderInterest(phoneCompanion()):""}${renderInterest(page)}${open?`${boxLink}${renderChecklist(page)}${renderInsurance(page)}${renderSecurity(page)}${renderPoints(page)}`:""}${renderWatch(page)}${actions(true,pageDone(page),"Continuer")}`;bindDynamic()}
-function remainingSteps(page){
- if(!page||page.type==="start"||page.type==="summary")return 0;
- if(page.type==="rebound-intro")return state.reboundConsent?0:1;
- if(page.type==="support")return page.items.filter(([id])=>!state.checks[key(page,id)]).length;
- const open=reboundOpen(page),interest=state.interests[key(page,"interest")],trade=state.tradeinInterests[key(page,"tradein")];
- let count=open?page.items.filter(([id])=>!state.checks[key(page,id)]).length:interest?0:1;
- if(!open&&page.id==="phone"&&interest==="no"&&!trade)count++;
- if(page.id==="phone"&&(open||trade==="no")&&!state.insuranceOutcome)count++;
- if(page.security&&(open||interest==="no"))count+=securityItems().filter(([id])=>!state.checks["security:"+id]).length;
- if(page.id==="mobile"&&page.role==="primary"&&phoneCompanion()&&!phoneChoiceDone())count+=remainingSteps(phoneCompanion());
- if(page.watch&&watchEligible())count+=!state.watchInterest?1:state.watchInterest==="yes"?watchQuestions.filter(([id])=>!state.checks["watch:"+id]).length:0;
- return count;
+function renderSupport(page){
+ app.innerHTML='<div class="meta">Assistance</div><h1>'+page.title+'</h1>'+renderChecklist(page)+(pageChecksDone(page)?'<section class="outcome"><h2>'+assistanceOpening()+'</h2><div class="chips">'+[["yes","Oui"],["no","Non"]].map(([v,label])=>'<button class="chip '+(state.assistanceConsent===v?"on":"")+'" aria-pressed="'+(state.assistanceConsent===v)+'" data-assistance-consent="'+v+'">'+label+'</button>').join("")+'</div></section>':"")+actions(true,pageDone(page));
+ bindDynamic();
 }
-function remainingText(page){const n=remainingSteps(page);return n?n+" repère"+(n>1?"s":"")+" restant"+(n>1?"s":""):""}
-function actions(back,enabled,label){return`<footer class="actions"><button class="back" id="back" ${back?"":"disabled"}>← Retour</button><button class="remaining" id="remaining" aria-live="polite" title="Aller au prochain repère à aborder">${remainingText(flow()[state.page])}</button><button class="next" id="next" ${enabled?"":"disabled"}>${label} →</button></footer>`}
-
-function recap(){const owned=hasOwned("none")?"rien chez Free":[hasOwned("mobile")?"forfait(s) Free":"",hasOwned("box")?"Freebox":"",hasOwned("phone")?"téléphone Free":""].filter(Boolean).join(", "),visit=state.visit==="help"?`assistance · ${labels.support[state.support]}`:`conseil · ${mainLabel()}`,active=flow().filter(p=>p.type==="theme"&&!isSkippedRebound(p)&&reboundOpen(p));const decisions=flow().filter(p=>p.type==="theme"&&interestPage(p)&&!isSkippedRebound(p)&&state.interests[key(p,"interest")]).map(p=>{const accepted=reboundOpen(p),decision=p.id==="phone"?(accepted?(state.tradeinInterests[key(p,"tradein")]==="yes"?"intéressé avec reprise":"intéressé"):"non souhaité"):(accepted?"à comparer":"pas de suite");return`${p.id==="mobile"?"Lignes hors Free":p.id==="box"?"Box":"Téléphone"} : ${decision}`});return[`Visite : ${visit}.`,`Déjà chez Free : ${owned}.`,`${state.householdLines} ligne(s) dans le foyer · ${state.freeLines} chez Free${hasLinesOutsideFree()?` · ${linesOutsideFree()} hors Free`:""}.`,...(watchInScope()&&state.watchInterest?[`Montre : ${state.watchInterest==="yes"?"à explorer":"pas de suite"}.`]:[]),...(decisions.length?[decisions.join(" · ")+"."]:[]),...(state.insuranceOutcome?[`Assurance : ${{propose:"à étudier",insured:"déjà assuré",decline:"pas de suite"}[state.insuranceOutcome]}.`]:[]),...active.flatMap(p=>{const points=(pointOptions[p.id]||[]).filter((_,i)=>state.points[p.id+":"+i]);return points.length?[`${p.title} : ${points.join(", ")}.`]:[]})]}
-
-function proposalTheme(id){return flow().some(p=>p.type==="theme"&&p.id===id&&!isSkippedRebound(p)&&reboundOpen(p))}
+function renderPage(page){
+ const open=reboundOpen(page),inline=phoneInline(page);
+ const context=page.id==="mobile"?(page.role==="rebound"?outsideLinesText():householdText()):page.id==="box"&&page.role==="rebound"?"":page.id==="phone"?(hasOwned("mobile")?"Avec votre forfait Free.":personalPlanPlanned()?"Avec le forfait Free envisagé.":"Pour acheter un mobile ici, il faut un forfait Free à votre nom."):"";
+ let body="";
+ if(page.id==="phone"){
+  body=renderPhoneChoice(page)+renderPhonePlan(page);
+  if(phoneDecisionDone(page)&&(!phonePlanRequired(page)||state.phonePlan)){
+   if(phoneChanging(page)){const trade=state.tradeinInterests[key(page,"tradein")]==="yes";body+=renderChecklist({...page,items:page.items.filter(([id])=>!(id==="tradein"&&trade))})}
+   body+=renderInsurance(phoneChanging(page));
+  }
+ }else{
+  body=renderInterest(page);
+  if(open){
+   if(inline)body+=renderPhoneChoice(inline,true);
+   if(page.id==="box")body+='<a class="eligibility-step" href="https://signup.free.fr/subscribe_promo/00_insert_addr.pl" target="_blank" rel="noopener noreferrer">1. Lancer le test d’éligibilité</a>';
+   body+=renderChecklist(page);
+  }
+ }
+ const heading=page.role==="rebound"&&page.id!=="phone"?reboundQuestion(page):page.title;
+ app.innerHTML='<div class="meta">'+routeLabel(page)+'</div><h1>'+heading+'</h1>'+(context?'<p class="context-line">'+context+'</p>':"")+body+renderSecurity(page)+renderWatch(page)+actions(true,pageDone(page));
+ bindDynamic();
+}
+function pendingKeys(page){
+ const pending=[];
+ const addChecks=(items,prefix)=>items.forEach(([id])=>{if(!state.checks[prefix+id])pending.push(prefix+id)});
+ if(page.type==="start"||page.type==="summary")return pending;
+ if(page.type==="support"){page.items.forEach(([id])=>{if(!state.checks[key(page,id)])pending.push(key(page,id))});if(!state.assistanceConsent)pending.push("assistance");return pending}
+ if(page.id==="phone"){
+  if(!phoneDecisionDone(page)){pending.push("phone-choice");return pending}
+  if(phonePlanRequired(page)&&!state.phonePlan){pending.push("phone-plan");return pending}
+  if(phoneChanging(page)){
+   page.items.filter(([id])=>!(id==="tradein"&&state.tradeinInterests[key(page,"tradein")]==="yes")).forEach(([id])=>{if(!state.checks[key(page,id)])pending.push(key(page,id))});
+   if(state.phonePlan==="yes")addChecks(core.mobile.items,"mobile:phone:");
+  }
+  if(!state.insuranceOutcome)pending.push("insurance");
+  if(insuranceRisksRequired(phoneChanging(page)))addChecks(riskItems,"insurance:");
+ }else{
+  if(interestPage(page)&&!state.interests[key(page,"interest")])pending.push("interest");
+  if(reboundOpen(page)){
+   page.items.forEach(([id])=>{if(!state.checks[key(page,id)])pending.push(key(page,id))});
+   const phone=phoneInline(page);
+   if(phone&&!phoneDecisionDone(phone))pending.push("phone-choice");
+   else if(phone&&!phoneWanted(phone)){if(!state.insuranceOutcome)pending.push("insurance");if(insuranceRisksRequired(false))addChecks(riskItems,"insurance:")}
+  }
+ }
+ if(page.security)addChecks(securityItems(),"security:");
+ if(page.watch&&watchEligible()){if(!state.watchInterest)pending.push("watch-choice");else if(state.watchInterest==="yes")addChecks(watchQuestions,"watch:")}
+ return pending;
+}
+function remainingSteps(page){return pendingKeys(page).length}
+function remainingText(page){const n=remainingSteps(page);return n?n+" point"+(n>1?"s":"")+" restant"+(n>1?"s":""):""}
+function canSkipPage(page){return isSkippedRebound(page)||(page.id==="phone"&&page.role==="companion"&&phoneInline(mobilePage()||{})&&!phoneWanted(page)&&pageDone(page))}
+function targetAfter(){const pages=flow();let target=Math.min(state.page+1,pages.length-1);while(target<pages.length-1&&canSkipPage(pages[target]))target++;return target}
+function nextLabel(){const page=flow()[targetAfter()];return page?.type==="summary"?(renderBuilder()?"Choisir les offres":"Terminer"):page?.title||"Continuer"}
+function actions(back,enabled,label){return '<footer class="actions"><button class="back" id="back" '+(back?"":"disabled")+'>← Retour</button><button class="remaining" id="remaining" aria-live="polite" title="Aller au prochain point">'+remainingText(flow()[state.page])+'</button><button class="next" id="next" '+(enabled?"":"disabled")+'>'+(label||nextLabel())+' →</button></footer>'}
+function proposalTheme(id){
+ if(id==="mobile"&&state.phonePlan==="yes"&&!isSkippedRebound({type:"theme"}))return true;
+ const p=flow().find(page=>page.id===id&&page.type==="theme"&&!isSkippedRebound(page));return !!p&&(id==="phone"?phoneChanging(p):reboundOpen(p));
+}
+function planSelectionLimit(){const p=flow().find(page=>page.id==="mobile"&&page.type==="theme"&&!isSkippedRebound(page)&&reboundOpen(page));return p?(p.role==="rebound"?(linesOutsideFree()??1):p.role==="prerequisite"?1:Math.max(1,knownCount(state.householdLines)?Number(state.householdLines):1)):state.phonePlan==="yes"&&proposalTheme("phone")?1:0}
 function findProduct(group,id){return catalog[group].find(item=>item.id===id)}
-function planSelectionLimit(){const p=flow().find(p=>p.id==="mobile"&&p.type==="theme"&&!isSkippedRebound(p)&&reboundOpen(p));return !p?0:p.role==="rebound"?linesOutsideFree():Math.max(1,Number(state.householdLines))}
 function planQuantities(){let remaining=planSelectionLimit();const result={};for(const item of catalog.plans){const qty=Math.min(remaining,Math.max(0,Math.floor(Number(state.cart.plans[item.id])||0)));if(qty)result[item.id]=qty;remaining-=qty}return result}
 function changePlan(id,delta){if(!findProduct("plans",id)||![1,-1].includes(delta))return;const quantities=planQuantities(),used=Object.values(quantities).reduce((sum,n)=>sum+n,0);if(delta<0||used<planSelectionLimit())quantities[id]=Math.max(0,(quantities[id]||0)+delta);state.cart.plans=quantities}
-function cartData(){const rows=[];const box=findProduct("boxes",state.cart.box);if(box&&proposalTheme("box"))rows.push(box.name);const quantities=planQuantities();for(const item of catalog.plans){const qty=quantities[item.id]||0;if(qty)rows.push((qty>1?qty+" × ":"")+item.name)}for(const [group,value] of [["security",state.cart.security],["insurance",state.cart.insurance]]){const item=findProduct(group,value);if(item)rows.push(item.name)}if(watchInScope()&&state.watchInterest==="yes"&&state.cart.watch==="watch")rows.push(findProduct("equipment","watch").name);return{rows}}
-
-function productButtons(group){const stateKey={boxes:"box",security:"security",insurance:"insurance",equipment:"watch"}[group];return catalog[group].map(item=>`<button class="product ${state.cart[stateKey]===item.id?"on":""}" aria-pressed="${state.cart[stateKey]===item.id}" data-cart-group="${stateKey}" data-cart-value="${item.id}"><strong>${item.name}</strong></button>`).join("")}
-function planButtons(){const quantities=planQuantities(),full=Object.values(quantities).reduce((sum,n)=>sum+n,0)>=planSelectionLimit();return catalog.plans.map(item=>{const qty=quantities[item.id]||0;return`<div class="product qty-card ${qty?"on":""}"><div><strong>${item.name}</strong></div><div class="qty"><button data-plan="${item.id}" data-delta="-1" ${qty?"":"disabled"} aria-label="Retirer ${item.name}">−</button><b>${qty}</b><button data-plan="${item.id}" data-delta="1" ${full?"disabled":""} aria-label="Ajouter ${item.name}">+</button></div></div>`}).join("")}
-function renderCart(){const {rows}=cartData();return`<section class="cart"><h2>Votre sélection</h2>${rows.length?`<ul class="cart-items">${rows.map(row=>`<li>${row}</li>`).join("")}</ul>`:`<div class="cart-items">Aucune offre sélectionnée</div>`}<p class="cart-note">Chiffrage, conditions et souscription dans les outils autorisés de l’opérateur. Aucun engagement n’est enregistré ici.</p></section>`}
-
-function renderBuilder(){return`<section class="builder"><p class="context-line">Repères d’offres, sans tarif. Disponibilité et conditions à vérifier.</p>${proposalTheme("box")?`<div class="builder-group"><h2>Quelle Freebox ?</h2><div class="product-grid">${productButtons("boxes")}</div></div>`:""}${proposalTheme("mobile")?`<div class="builder-group"><h2>Quels forfaits ?</h2><p class="micro">${planSelectionLimit()} ligne${planSelectionLimit()>1?"s":""} maximum dans cette proposition</p><div class="product-grid">${planButtons()}</div></div>`:""}<div class="builder-group"><h2>Quelle protection McAfee ?</h2><div class="product-grid">${productButtons("security")}</div></div><div class="builder-group"><h2>Quelle assurance mobile ?</h2><div class="product-grid">${productButtons("insurance")}</div></div>${watchInScope()&&state.watchInterest==="yes"?`<div class="builder-group"><h2>Montre connectée</h2><div class="product-grid">${productButtons("equipment")}</div></div>`:""}${proposalTheme("phone")?`<div class="builder-group"><h2>Téléphone, reprise et assurance</h2><div class="specific">Modèle, reprise et assurance classique : à étudier dans les outils autorisés de l’opérateur.</div></div>`:""}${renderCart()}</section>`}
-function bindBuilder(){document.querySelectorAll("[data-cart-group]").forEach(b=>b.onclick=()=>{const group=b.dataset.cartGroup,value=b.dataset.cartValue;state.cart[group]=state.cart[group]===value?"":value;renderSummary()});document.querySelectorAll("[data-plan]").forEach(b=>b.onclick=()=>{changePlan(b.dataset.plan,Number(b.dataset.delta));renderSummary()})}
-function renderCoverage(){
- const pages=flow(),topic=id=>{const p=pages.find(p=>p.type==="theme"&&p.id===id);if(!p)return hasOwned(id)?"Déjà chez Free":"Non concerné";if(isSkippedRebound(p))return"Échange non souhaité";if(interestPage(p)&&!reboundOpen(p))return state.interests[key(p,"interest")]==="no"?"Pas de suite":"À aborder";return pageChecksDone(p)?"Abordé":"À compléter"};
- const security=pages.find(p=>p.security),insurance={propose:"À étudier",insured:"Déjà assuré",decline:"Pas de suite"};
- const topics=[["Forfaits",topic("mobile")],["Téléphone",topic("phone")],["Box",topic("box")],["McAfee",security&&securityDone(security)?"Abordé":"Non abordé"],["Assurance",insurance[state.insuranceOutcome]||"Non abordée"],["Montre",watchInScope()?(state.watchInterest==="no"?"Pas de suite":state.watchInterest==="yes"?"À explorer":"Non abordée"):watchEligible()?"Échange non souhaité":"Non concernée"]];
- return `<details class="memory"><summary>Les sujets de l’entretien</summary><ul class="coverage-list">${topics.map(([label,status])=>`<li><strong>${label}</strong><span>${status}</span></li>`).join("")}</ul></details>`;
+function securityInScope(){return flow().some(p=>p.security&&!isSkippedRebound(p)&&securityDone(p))}
+function insuranceInScope(){return ["propose","verify"].includes(state.insuranceOutcome)&&flow().some(p=>p.id==="phone"&&!isSkippedRebound(p))}
+function cartData(){
+ const rows=[],box=findProduct("boxes",state.cart.box);
+ if(box&&proposalTheme("box"))rows.push(box.name);
+ const quantities=planQuantities();for(const item of catalog.plans){const n=quantities[item.id]||0;if(n)rows.push((n>1?n+" × ":"")+item.name)}
+ for(const [group,value,available] of [["security",state.cart.security,securityInScope()],["insurance",state.cart.insurance,insuranceInScope()]]){const item=findProduct(group,value);if(item&&available)rows.push(item.name)}
+ if(watchInScope()&&state.watchInterest==="yes"&&state.cart.watch==="watch")rows.push(findProduct("equipment","watch").name);
+ return {rows};
 }
-function renderSummary(){const expanded=Array.from(app.querySelectorAll?.("details[open] summary")||[]).map(el=>el.textContent);app.innerHTML=`<div class="meta"><span>Synthèse</span></div><h1>Les points d’appui</h1><div class="summary-layout"><aside class="summary-aside"><section class="summary-box"><small>POINTS RETENUS POUR L’ÉCHANGE</small><ul>${recap().map(x=>`<li>${x}</li>`).join("")}</ul></section>${renderCoverage()}${state.reboundConsent==="no"?`<p class="context-line">Le client n’a pas souhaité élargir l’échange.</p>`:""}</aside><div class="proposal-body"><h2>Préparer la proposition</h2>${renderBuilder()}</div></div>${actions(true,true,"Nouvelle découverte")}`;for(const detail of app.querySelectorAll?.("details")||[])if(expanded.includes(detail.querySelector("summary")?.textContent))detail.open=true;bindBuilder();document.getElementById("next").onclick=reset;document.getElementById("back").onclick=back}
-function bindStart(){const clearRoute=()=>{state.points={};state.page=0;state.reboundConsent="";state.checks={};state.interests={};state.tradeinInterests={};state.insuranceOutcome="";state.watchInterest="";state.cart={box:"",plans:{},security:"",insurance:"",watch:""}};document.querySelectorAll("[data-single]").forEach(b=>b.onclick=()=>{const f=b.dataset.single,v=b.dataset.value;if(state[f]!==v){state[f]=v;clearRoute();if(f==="visit"){state.main=[];state.support=""}if(f==="household"){state.householdLines="";state.freeLines="";if(v==="none")state.owned=["none"]}if(f==="householdLines"){state.freeLines=v==="0"?"0":"";state.household="unsure"}}render();});document.querySelectorAll("[data-owned]").forEach(b=>b.onclick=()=>{selectOwned(b.dataset.owned);clearRoute();render()});document.querySelectorAll("[data-main]").forEach(b=>b.onclick=()=>{if(!Array.isArray(state.main))state.main=[];const value=b.dataset.main;state.main=state.main.includes(value)?state.main.filter(x=>x!==value):[...state.main,value];clearRoute();render()});bindActions()}
-function bindDynamic(){document.querySelectorAll("[data-watch-interest]").forEach(b=>b.onclick=()=>{setWatchInterest(b.dataset.watchInterest);render()});document.querySelectorAll("[data-edit-phone]").forEach(b=>b.onclick=()=>{state.page=flow().findIndex(p=>p.id==="mobile"&&p.role==="primary");render()});document.querySelectorAll("[data-point]").forEach(b=>b.onclick=()=>{state.points[b.dataset.point]=!state.points[b.dataset.point];b.classList.toggle("on",state.points[b.dataset.point]);b.setAttribute("aria-pressed",!!state.points[b.dataset.point])});document.querySelectorAll("[data-interest]").forEach(b=>b.onclick=()=>{setInterest(b.dataset.interest,b.dataset.value);render()});document.querySelectorAll("[data-tradein]").forEach(b=>b.onclick=()=>{setTradein(b.dataset.tradein,b.dataset.value);render()});document.querySelectorAll("[data-check]").forEach(b=>b.onclick=()=>{const checked=!state.checks[b.dataset.check];state.checks[b.dataset.check]=checked;b.classList.toggle("done",checked);b.setAttribute("aria-pressed",checked);if(b.dataset.check.startsWith("phone:")&&b.dataset.check.endsWith(":plan")){clearWatchIfUnavailable();render();return}const n=document.getElementById("next");if(n)n.disabled=!pageDone(flow()[state.page]);const remaining=document.getElementById("remaining");if(remaining)remaining.textContent=remainingText(flow()[state.page])});document.querySelectorAll("[data-insurance-outcome]").forEach(b=>b.onclick=()=>{state.insuranceOutcome=b.dataset.insuranceOutcome;render()});bindActions()}
-function setInterest(k,value){if(state.interests[k]===value)return;state.interests[k]=value;delete state.tradeinInterests[k.replace("interest","tradein")];if(k.startsWith("phone:"))state.insuranceOutcome="";if(value==="no"){if(k.startsWith("box:"))state.cart.box="";if(k.startsWith("mobile:"))state.cart.plans={}}clearWatchIfUnavailable()}
-function setTradein(k,value){if(state.tradeinInterests[k]===value)return;state.tradeinInterests[k]=value;state.insuranceOutcome="";clearWatchIfUnavailable()}
+function productButtons(group){const stateKey={boxes:"box",security:"security",insurance:"insurance",equipment:"watch"}[group];return catalog[group].map(item=>'<button class="product '+(state.cart[stateKey]===item.id?"on":"")+'" aria-pressed="'+(state.cart[stateKey]===item.id)+'" data-cart-group="'+stateKey+'" data-cart-value="'+item.id+'"><strong>'+item.name+'</strong></button>').join("")}
+function planButtons(){const quantities=planQuantities(),full=Object.values(quantities).reduce((sum,n)=>sum+n,0)>=planSelectionLimit();return catalog.plans.map(item=>{const qty=quantities[item.id]||0;return '<div class="product qty-card '+(qty?"on":"")+'"><strong>'+item.name+'</strong><div class="qty"><button data-plan="'+item.id+'" data-delta="-1" '+(qty?"":"disabled")+' aria-label="Retirer '+item.name+'">−</button><b>'+qty+'</b><button data-plan="'+item.id+'" data-delta="1" '+(full?"disabled":"")+' aria-label="Ajouter '+item.name+'">+</button></div></div>'}).join("")}
+function renderCart(){const {rows}=cartData();return rows.length?'<section class="cart"><h2>La sélection</h2><ul class="cart-items">'+rows.map(row=>'<li>'+row+'</li>').join("")+'</ul></section>':""}
+function renderBuilder(){
+ const group=(title,products)=>'<section class="builder-group"><h2>'+title+'</h2><div class="product-grid">'+products+'</div></section>';
+ return (proposalTheme("box")?group("Freebox",productButtons("boxes")):"")+(proposalTheme("mobile")?'<section class="builder-group"><h2>Forfaits</h2><p class="micro">'+planSelectionLimit()+' ligne'+(planSelectionLimit()>1?"s":"")+' maximum</p><div class="product-grid">'+planButtons()+'</div></section>':"")+(securityInScope()?group("McAfee",productButtons("security")):"")+(insuranceInScope()?group("Assurance mobile",productButtons("insurance")):"")+(watchInScope()&&state.watchInterest==="yes"?group("Montre",productButtons("equipment")):"")+(proposalTheme("phone")?'<section class="builder-group"><h2>Mobile et reprise</h2><p class="specific">Choisir le modèle, faire estimer la reprise et étudier l’assurance dans les outils de souscription.</p></section>':"")+renderCart();
+}
+function renderSummary(){
+ const body=renderBuilder();
+ app.innerHTML='<div class="meta">Fin de l’entretien</div><h1>'+(body?"Les offres":"Entretien terminé")+'</h1><div class="offer-end">'+body+'</div>'+actions(true,true,"Nouvelle découverte");
+ bindBuilder();document.getElementById("next").onclick=reset;document.getElementById("back").onclick=back;document.getElementById("reset").onclick=reset;
+}
+function bindBuilder(){document.querySelectorAll("[data-cart-group]").forEach(b=>b.onclick=()=>{const group=b.dataset.cartGroup,value=b.dataset.cartValue;state.cart[group]=state.cart[group]===value?"":value;renderSummary()});document.querySelectorAll("[data-plan]").forEach(b=>b.onclick=()=>{changePlan(b.dataset.plan,Number(b.dataset.delta));renderSummary()})}
+function clearRoute(){Object.assign(state,{page:0,assistanceConsent:"",checks:{},interests:{},tradeinInterests:{},phonePlan:"",insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}})}
+function setProfile(field,value){
+ if(state[field]===value)return;
+ if(field==="householdLines"&&state.freeLinesAuto){state.freeLines="";state.freeLinesAuto=false}
+ if(field==="freeLines")state.freeLinesAuto=false;
+ state[field]=value;if(field==="visit"){state.main=[];state.support=""}
+ if(field==="householdLines"&&value==="?")state.freeLines="?";
+ normalizeHousehold();clearRoute();
+}
+function selectOwned(value){
+ const mobileBefore=hasOwned("mobile");
+ if(value==="none")state.owned=["none"];
+ else {state.owned=state.owned.filter(id=>id!=="none");state.owned=state.owned.includes(value)?state.owned.filter(id=>id!==value):[...state.owned,value]}
+ if(mobileBefore!==hasOwned("mobile")){state.freeLines="";state.freeLinesAuto=false}
+ normalizeHousehold();clearRoute();
+}
+function bindStart(){
+ document.querySelectorAll("[data-single]").forEach(b=>b.onclick=()=>{setProfile(b.dataset.single,b.dataset.value);render()});
+ document.querySelectorAll("[data-owned]").forEach(b=>b.onclick=()=>{selectOwned(b.dataset.owned);render()});
+ document.querySelectorAll("[data-main]").forEach(b=>b.onclick=()=>{const id=b.dataset.main;state.main=mainHas(id)?state.main.filter(x=>x!==id):[...state.main,id];clearRoute();render()});bindActions();
+}
+function setInterest(k,value){
+ if(state.interests[k]===value)return;
+ state.interests[k]=value;
+ if(k.startsWith("phone:")){delete state.tradeinInterests[k.replace(":interest",":tradein")];state.phonePlan="";state.insuranceOutcome="";state.cart.insurance="";for(const [id] of riskItems)delete state.checks["insurance:"+id]}
+ if(k.startsWith("mobile:")){state.cart.plans={};state.phonePlan=""}
+ if(k.startsWith("box:"))state.cart.box="";
+ clearWatchIfUnavailable();
+}
+function setTradein(k,value){if(state.tradeinInterests[k]===value)return;state.tradeinInterests[k]=value;state.phonePlan="";state.insuranceOutcome="";state.cart.insurance="";for(const [id] of riskItems)delete state.checks["insurance:"+id];clearWatchIfUnavailable()}
+function bindDynamic(){
+ document.querySelectorAll("[data-interest]").forEach(b=>b.onclick=()=>{setInterest(b.dataset.interest,b.dataset.value);render()});
+ document.querySelectorAll("[data-tradein]").forEach(b=>b.onclick=()=>{setTradein(b.dataset.tradein,b.dataset.value);render()});
+ document.querySelectorAll("[data-edit-phone]").forEach(b=>b.onclick=()=>{state.page=flow().findIndex(p=>p.id==="mobile");render();focusPage()});
+ document.querySelectorAll("[data-phone-plan]").forEach(b=>b.onclick=()=>{if(state.phonePlan!==b.dataset.phonePlan){state.phonePlan=b.dataset.phonePlan;state.cart.plans={};state.insuranceOutcome="";clearWatchIfUnavailable()}render()});
+ document.querySelectorAll("[data-insurance-outcome]").forEach(b=>b.onclick=()=>{state.insuranceOutcome=b.dataset.insuranceOutcome;state.cart.insurance="";render()});
+ document.querySelectorAll("[data-watch-interest]").forEach(b=>b.onclick=()=>{setWatchInterest(b.dataset.watchInterest);render()});
+ document.querySelectorAll("[data-assistance-consent]").forEach(b=>b.onclick=()=>{state.assistanceConsent=b.dataset.assistanceConsent;if(state.assistanceConsent==="no"){state.cart={box:"",plans:{},security:"",insurance:"",watch:""};clearWatch()}render()});
+ document.querySelectorAll("[data-check]").forEach(b=>b.onclick=()=>{
+  const checked=!state.checks[b.dataset.check];state.checks[b.dataset.check]=checked;b.classList.toggle("done",checked);b.setAttribute("aria-pressed",checked);
+  const page=flow()[state.page];
+  if(page.type==="support"){render();return}
+  document.getElementById("next").disabled=!pageDone(page);document.getElementById("next").textContent=nextLabel()+" →";document.getElementById("remaining").textContent=remainingText(page);
+ });bindActions();
+}
 function focusPending(){
- const controls=app.querySelectorAll?.("[data-check],[data-interest],[data-tradein],[data-watch-interest],[data-insurance-outcome],[data-rebound-consent]")||[];
- const target=Array.from(controls).find(b=>{const d=b.dataset;if(d.check)return !(d.check.startsWith("watch:")&&state.watchInterest==="no")&&!state.checks[d.check];if(d.interest)return !state.interests[d.interest];if(d.tradein)return !state.tradeinInterests[d.tradein];if(d.watchInterest)return !state.watchInterest;if(d.insuranceOutcome)return !state.insuranceOutcome;if(d.reboundConsent)return !state.reboundConsent;return false});
+ const controls=app.querySelectorAll?.("[data-check],[data-interest],[data-tradein],[data-watch-interest],[data-insurance-outcome],[data-phone-plan],[data-assistance-consent]")||[];
+ const target=Array.from(controls).find(b=>{const d=b.dataset;if(d.check)return !(d.check.startsWith("watch:")&&state.watchInterest==="no")&&!state.checks[d.check];if(d.interest)return !state.interests[d.interest];if(d.tradein)return !state.tradeinInterests[d.tradein];if(d.watchInterest)return !state.watchInterest;if(d.insuranceOutcome)return !state.insuranceOutcome;if(d.phonePlan)return !state.phonePlan;if(d.assistanceConsent)return !state.assistanceConsent;return false});
  if(target){target.focus({preventScroll:true});target.scrollIntoView({block:"center",behavior:"auto"})}
 }
-function bindActions(){const n=document.getElementById("next"),b=document.getElementById("back"),r=document.getElementById("reset");if(n)n.onclick=next;if(b)b.onclick=back;if(r)r.onclick=reset;const pending=document.getElementById("remaining");if(pending)pending.onclick=focusPending}
-function isCompletedDecline(page){return page&&page.type==="theme"&&interestPage(page)&&!reboundOpen(page)&&pageDone(page)}
-function isSkippedRebound(page){return state.reboundConsent==="no"&&page&&page.type==="theme"&&page.role==="rebound"}
-function next(){const pages=flow(),page=pages[state.page];if(!pageDone(page))return;let target=Math.min(state.page+1,pages.length-1);while(target<pages.length-1&&(isCompletedDecline(pages[target])||isSkippedRebound(pages[target])))target++;state.page=target;render();focusPage()}
+function bindActions(){const nextButton=document.getElementById("next"),backButton=document.getElementById("back");if(nextButton)nextButton.onclick=next;if(backButton)backButton.onclick=back;document.getElementById("reset").onclick=reset;const pending=document.getElementById("remaining");if(pending)pending.onclick=focusPending}
+function next(){if(!pageDone(flow()[state.page]))return;state.page=targetAfter();render();focusPage()}
+function back(){const pages=flow();let target=Math.max(0,state.page-1);while(target>0&&canSkipPage(pages[target]))target--;state.page=target;render();focusPage()}
 function focusPage(){const heading=app.querySelector?.("h1");if(heading){heading.tabIndex=-1;heading.focus({preventScroll:true});heading.scrollIntoView({block:"start",behavior:"auto"})}}
-function back(){const pages=flow();let target=Math.max(0,state.page-1);while(target>0&&isSkippedRebound(pages[target]))target--;state.page=target;render();focusPage()}
-function reset(){state.points={};Object.assign(state,{page:0,visit:"",owned:[],household:"",householdLines:"",freeLines:"",main:[],support:"",reboundConsent:"",checks:{},interests:{},tradeinInterests:{},insuranceOutcome:"",watchInterest:"",cart:{box:"",plans:{},security:"",insurance:"",watch:""}});render()}
-function render(){const pages=flow();if(state.page>=pages.length)state.page=pages.length-1;const page=pages[state.page],logical=page.type==="start"?0:page.type==="summary"?3:page.type==="support"?1:page.role==="primary"||page.role==="prerequisite"?1:2;app.className="screen"+(page.type==="start"?" start-screen":"");stage.innerHTML=["Profil","Découverte","Rebonds","Proposition"].map((label,i)=>`<span class="${i<=logical?"on":""}" ${i===logical?'aria-current="step"':""}><b>${i+1}</b>${label}</span>`).join("");counter.innerHTML=`<b>${state.page+1}</b> / ${pages.length}`;if(page.type==="start")renderStart();else if(page.type==="summary")renderSummary();else if(page.type==="rebound-intro")renderReboundIntro();else renderPage(page)}
+function reset(){Object.assign(state,{page:0,visit:"",owned:[],householdLines:"",freeLines:"",freeLinesAuto:false,main:[],support:""});clearRoute();render()}
+function render(){
+ const pages=flow();if(state.page>=pages.length)state.page=pages.length-1;
+ const page=pages[state.page],logical=page.type==="start"?0:page.type==="summary"?3:page.type==="support"||page.role==="primary"||page.role==="prerequisite"||page.role==="companion"&&mainHas("plan")?1:2;
+ app.className="screen"+(page.type==="start"?" start-screen":"");
+ stage.innerHTML=["Profil","Découverte","Foyer","Offres"].map((label,i)=>'<span class="'+(i<=logical?"on":"")+'" '+(i===logical?'aria-current="step"':"")+'><b>'+(i+1)+'</b>'+label+'</span>').join("");
+ counter.textContent=(state.page+1)+" / "+pages.length;
+ if(page.type==="start")renderStart();else if(page.type==="summary")renderSummary();else if(page.type==="support")renderSupport(page);else renderPage(page);
+}
 const INACTIVITY_MS=20*60*1000;
 let lastInteraction=Date.now();
 function clearInactiveSession(){if(state.visit&&Date.now()-lastInteraction>=INACTIVITY_MS){reset();lastInteraction=Date.now()}}
